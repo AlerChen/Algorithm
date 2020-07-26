@@ -21,6 +21,9 @@ public class SortingHelper {
         if (sortName.equals("SelectionSort_Pattern")){
             SelectionSort_Pattern.sort(arr);
         }
+        if (sortName.equals("SelectionSort_2")){
+            SelectionSort_2.sort(arr);
+        }
         long endTime = System.nanoTime();
         Double time = (endTime - startTime) / 1000000000.0;
         if (!SortingHelper.isSorted(arr)){

@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SelectionSort_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SelectionSort_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SelectionSort_Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SortingHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SortingHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SortingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SortingHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
