@@ -19,6 +19,7 @@ public class SelectionSort {
         }
     }
 
+
     private static void swap(Integer[] arr,int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
