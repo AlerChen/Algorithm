@@ -42,22 +42,39 @@ public class SelectionSort_Pattern {
         arr[j] = temp;
     }
 
+//    public static void main(String[] args) {
+//
+//        Student[] arr = {
+//                new Student("bobo",100),
+//                new Student("Bibi",88),
+//                new Student("Alice",96),
+//                new Student("Gigi",36),
+//                new Student("Kom",79),
+//        };
+//
+//        SelectionSort_Pattern.sort(arr);
+//
+//        for (Student s : arr){
+//            System.out.println(s);
+//        }
+//    }
+
     public static void main(String[] args) {
 
-        Student[] arr = {
-                new Student("bobo",100),
-                new Student("Bibi",88),
-                new Student("Alice",96),
-                new Student("Gigi",36),
-                new Student("Kom",79),
-        };
-
-        SelectionSort_Pattern.sort(arr);
-
-        for (Student s : arr){
-            System.out.println(s);
+        int[] data = {1000, 10000, 100000};
+        for (int n : data) {
+            Integer[] arr = ArrayGenerator.generateRandomArray(n, n);
+            SortingHelper.sortTest("SelectionSort_Pattern", arr);
         }
-
+        /*
+        sortName: SelectionSort_Pattern, n = 1000, time = 0.010042 s
+        sortName: SelectionSort_Pattern, n = 10000, time = 0.157053 s
+        sortName: SelectionSort_Pattern, n = 100000, time = 12.724032 s
+        
+        选择排序 时间复杂度: O(n^2)
+        随着数据量的增加, 执行时间呈指数上涨.
+         
+        */
     }
     
 }
