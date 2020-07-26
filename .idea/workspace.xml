@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/02-Selection-Sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SelectionSort_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
