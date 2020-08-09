@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SelectionSort_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SelectionSort_Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SelectionSort_Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SortingHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/out/production/02-Selection-Sort/com/company/SortingHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SortingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/02-Selection-Sort/src/com/company/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="315" width="522" height="260" key="#Notifications" timestamp="1595736724788">
