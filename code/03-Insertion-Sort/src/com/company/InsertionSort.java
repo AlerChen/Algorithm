@@ -13,6 +13,9 @@ public class InsertionSort {
  */
     private InsertionSort(){};
 
+    /*
+    * 插入排序
+    * */
     public static <E extends Comparable> void sort(E[] arr){
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j - 1 >= 0; j--) {
@@ -67,7 +70,7 @@ public class InsertionSort {
 
 
     */
-    public static <E extends Comparable> void srot_optimize (E[] arr){
+    public static <E extends Comparable> void sort_optimize (E[] arr){
 
         for (int i = 0; i < arr.length; i++) {
             E temp = arr[i];
@@ -88,21 +91,46 @@ public class InsertionSort {
     Time complexity : O(n^2)
      */
 
+
+    /*
+     插入排序:
+     (作业)
+          倒序实现插入排序,使插入排序的循环不变量与正序插入排序的循环不变量维护方式一致
+     */
+    public static <E extends Comparable> void sort_reverse(E[] arr){
+        for (int i = arr.length -1; i >= 0; i--) {
+            E temp = arr[i];
+            int j;
+            for (j = i; j + 1 < arr.length && temp.compareTo(arr[j+1]) > 0 ; j++) {
+                arr[j] = arr[j+1];
+            }
+            arr[j] = temp;
+        }
+    }
+
     private static <E>void swap(E[] arr,int a,int b){
         E temp = arr[a];
         arr[a] = arr[b];
         arr[b] = temp;
     }
 
+    /*-----------------------------------------------------------------*/
+
     public static void main(String[] args) {
-        //testSort();
-        testSort2();
+        // 插入排序
+        //testInsertionSort();
+        // 插入排序_优化
+        //testInsertionSort_optimize();
+        // 插入排序_特性
+        //testInsertionSort_feature();
+        // 插入排序_倒序实现
+        testInsertionSort_reverse();
     }
 
     /*
     * 插入排序
     * */
-    private static void testSort(){
+    private static void testInsertionSort(){
         int[] dataArr = {10000,100000};
         for (int data:dataArr) {
             Integer[] arr = ArrayGenerator.generateRandomArray(data,data);
@@ -117,7 +145,7 @@ public class InsertionSort {
     /*
      * 插入排序_小优化
      * */
-    private static void testSort2() {
+    private static void testInsertionSort_optimize(){
         int[] dataArr = {10000, 100000};
         for (int data : dataArr) {
             Integer[] arr = ArrayGenerator.generateRandomArray(data, data);
@@ -128,4 +156,49 @@ public class InsertionSort {
     sortName: InsertionSort, n = 10000, time = 0.181293 s
     sortName: InsertionSort, n = 100000, time = 20.638732 s
     */
+
+    /*
+    * 插入排序_特性
+    * 有序数组情况下 时间复杂度为: O(n)
+    * 无序数组情况下 时间复杂度为: O(n^2)
+    * */
+    private static void testInsertionSort_feature(){
+        int[] dataArr = {10000, 100000};
+        for (int data : dataArr) {
+            System.out.println("Ordered Array : ");
+            Integer[] orderArr = ArrayGenerator.generateOrderArray(data);
+            SortingHelper.sortTest("InsertionSort", orderArr);
+
+            System.out.println("Random Array : ");
+            Integer[] randomArr = ArrayGenerator.generateRandomArray(data, data);
+            SortingHelper.sortTest("InsertionSort", randomArr);
+        }
+    }
+    /*
+    Ordered Array :
+    sortName: InsertionSort, n = 10000, time = 0.001683 s
+    Random Array :
+    sortName: InsertionSort, n = 10000, time = 0.269312 s
+    Ordered Array :
+    sortName: InsertionSort, n = 100000, time = 0.002095 s
+    Random Array :
+    sortName: InsertionSort, n = 100000, time = 23.907390 s
+
+    */
+
+    /*
+    * 插入排序_倒序实现
+    * */
+    private static void testInsertionSort_reverse(){
+        int[] dataArr = {10000, 100000};
+        for (int data : dataArr) {
+            Integer[] arr = ArrayGenerator.generateRandomArray(data, data);
+            SortingHelper.sortTest("InsertionSort_reverse", arr);
+        }
+    }
+    /*
+    sortName: InsertionSort_reverse, n = 10000, time = 0.526164 s
+    sortName: InsertionSort_reverse, n = 100000, time = 16.942521 s
+    */
+
 }

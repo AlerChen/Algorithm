@@ -22,6 +22,7 @@
     <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/SortingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/SortingHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/out/production/03-Insertion-Sort/com/company/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/out/production/03-Insertion-Sort/com/company/InsertionSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

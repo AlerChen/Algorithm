@@ -28,8 +28,12 @@ public class SortingHelper {
             InsertionSort.sort(arr);
         }
         if (sortName.equals("InsertionSort_optimize")){
-            InsertionSort.srot_optimize(arr);    
+            InsertionSort.sort_optimize(arr);
         }
+        if (sortName.equals("InsertionSort_reverse")){
+            InsertionSort.sort_reverse(arr);
+        }
+
         
         long endTime = System.nanoTime();
         Double time = (endTime - startTime) / 1000000000.0;
