@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/SortingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/03-Insertion-Sort/src/com/company/SortingHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/out/production/03-Insertion-Sort/com/company/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/code/out/production/03-Insertion-Sort/com/company/InsertionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/04-Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/src/com/company/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/04-Array/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

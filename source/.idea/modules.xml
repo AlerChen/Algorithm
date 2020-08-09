@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/01-Linked-List-Basics/01-Linked-List-Basics.iml" filepath="$PROJECT_DIR$/07-Linked-List/01-Linked-List-Basics/01-Linked-List-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/01-Linked-List-Problems-in-Leetcode/01-Linked-List-Problems-in-Leetcode.iml" filepath="$PROJECT_DIR$/08-Recursion/01-Linked-List-Problems-in-Leetcode/01-Linked-List-Problems-in-Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/02-Array-Basics/02-Array-Basics.iml" filepath="$PROJECT_DIR$/05-Arrays/02-Array-Basics/02-Array-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/02-Array-Stack/02-Array-Stack.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/02-Array-Stack/02-Array-Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Insertion-Sort/02-Insertion-Sort/02-Insertion-Sort.iml" filepath="$PROJECT_DIR$/04-Insertion-Sort/02-Insertion-Sort/02-Insertion-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08x-Linked-List/02-LC206-Reverse-Linked-List/02-LC206-Reverse-Linked-List.iml" filepath="$PROJECT_DIR$/08x-Linked-List/02-LC206-Reverse-Linked-List/02-LC206-Reverse-Linked-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06x-Stacks-and-Queues/02-LC225-Implement-Stack-using-Queues/02-LC225-Implement-Stack-using-Queues.iml" filepath="$PROJECT_DIR$/06x-Stacks-and-Queues/02-LC225-Implement-Stack-using-Queues/02-LC225-Implement-Stack-using-Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Selection-Sort/02-Selection-Sort/02-Selection-Sort.iml" filepath="$PROJECT_DIR$/03-Selection-Sort/02-Selection-Sort/02-Selection-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/02-Test-Your-LinkedList-Solution/02-Test-Your-LinkedList-Solution.iml" filepath="$PROJECT_DIR$/08-Recursion/02-Test-Your-LinkedList-Solution/02-Test-Your-LinkedList-Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/03-A-Stack-Problem-in-Leetcode.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/03-A-Stack-Problem-in-Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/03-Create-Our-Own-Array/03-Create-Our-Own-Array.iml" filepath="$PROJECT_DIR$/05-Arrays/03-Create-Our-Own-Array/03-Create-Our-Own-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/03-DummyHead-in-LinkedList/03-DummyHead-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/03-DummyHead-in-LinkedList/03-DummyHead-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Insertion-Sort/03-Insertion-Sort-Optimized/03-Insertion-Sort-Optimized.iml" filepath="$PROJECT_DIR$/04-Insertion-Sort/03-Insertion-Sort-Optimized/03-Insertion-Sort-Optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08x-Linked-List/03-LC206-Reverse-Linked-List/03-LC206-Reverse-Linked-List.iml" filepath="$PROJECT_DIR$/08x-Linked-List/03-LC206-Reverse-Linked-List/03-LC206-Reverse-Linked-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06x-Stacks-and-Queues/03-LC232-Implement-Queue-using-Stacks/03-LC232-Implement-Queue-using-Stacks.iml" filepath="$PROJECT_DIR$/06x-Stacks-and-Queues/03-LC232-Implement-Queue-using-Stacks/03-LC232-Implement-Queue-using-Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Linear-Search/03-Linaer-Search/03-Linaer-Search.iml" filepath="$PROJECT_DIR$/02-Linear-Search/03-Linaer-Search/03-Linaer-Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/03-Recursion-Basics/03-Recursion-Basics.iml" filepath="$PROJECT_DIR$/08-Recursion/03-Recursion-Basics/03-Recursion-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Selection-Sort/03-Using-Generics/03-Using-Generics.iml" filepath="$PROJECT_DIR$/03-Selection-Sort/03-Using-Generics/03-Using-Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/04-Add-Element-in-Array/04-Add-Element-in-Array.iml" filepath="$PROJECT_DIR$/05-Arrays/04-Add-Element-in-Array/04-Add-Element-in-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Insertion-Sort/04-Insertion-Sort-Features/04-Insertion-Sort-Features.iml" filepath="$PROJECT_DIR$/04-Insertion-Sort/04-Insertion-Sort-Features/04-Insertion-Sort-Features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/04-LinkedList-and-Recursion/04-LinkedList-and-Recursion.iml" filepath="$PROJECT_DIR$/08-Recursion/04-LinkedList-and-Recursion/04-LinkedList-and-Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/04-More-about-Leetcode/04-More-about-Leetcode.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/04-More-about-Leetcode/04-More-about-Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/04-Query-and-Update-in-LinkedList/04-Query-and-Update-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/04-Query-and-Update-in-LinkedList/04-Query-and-Update-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Selection-Sort/04-Using-Comparable/04-Using-Comparable.iml" filepath="$PROJECT_DIR$/03-Selection-Sort/04-Using-Comparable/04-Using-Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Linear-Search/04-Using-Generic/04-Using-Generic.iml" filepath="$PROJECT_DIR$/02-Linear-Search/04-Using-Generic/04-Using-Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/05-Array-Queue/05-Array-Queue.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/05-Array-Queue/05-Array-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Selection-Sort/05-Performance-of-Selection-Sort/05-Performance-of-Selection-Sort.iml" filepath="$PROJECT_DIR$/03-Selection-Sort/05-Performance-of-Selection-Sort/05-Performance-of-Selection-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/05-Query-and-Update-Element/05-Query-and-Update-Element.iml" filepath="$PROJECT_DIR$/05-Arrays/05-Query-and-Update-Element/05-Query-and-Update-Element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/05-Remove-Element-in-LinkedList/05-Remove-Element-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/05-Remove-Element-in-LinkedList/05-Remove-Element-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Linear-Search/05-Using-Custom-Class/05-Using-Custom-Class.iml" filepath="$PROJECT_DIR$/02-Linear-Search/05-Using-Custom-Class/05-Using-Custom-Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Insertion-Sort/06-Another-Insertion-Sort/06-Another-Insertion-Sort.iml" filepath="$PROJECT_DIR$/04-Insertion-Sort/06-Another-Insertion-Sort/06-Another-Insertion-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/06-Contain-Find-and-Remove/06-Contain-Find-and-Remove.iml" filepath="$PROJECT_DIR$/05-Arrays/06-Contain-Find-and-Remove/06-Contain-Find-and-Remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/06-Debug-Recursive-Solution/06-Debug-Recursive-Solution.iml" filepath="$PROJECT_DIR$/08-Recursion/06-Debug-Recursive-Solution/06-Debug-Recursive-Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/06-Loop-Queue/06-Loop-Queue.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/06-Loop-Queue/06-Loop-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Selection-Sort/07-Another-Selection-Sort/07-Another-Selection-Sort.iml" filepath="$PROJECT_DIR$/03-Selection-Sort/07-Another-Selection-Sort/07-Another-Selection-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/07-Generic-Data-Structures/07-Generic-Data-Structures.iml" filepath="$PROJECT_DIR$/05-Arrays/07-Generic-Data-Structures/07-Generic-Data-Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/07-Implement-Queue-in-LinkedList/07-Implement-Queue-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Linked-List/07-Implement-Queue-in-LinkedList/07-Implement-Queue-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/07-Implementation-of-Loop-Queue/07-Implementation-of-Loop-Queue.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/07-Implementation-of-Loop-Queue/07-Implementation-of-Loop-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/08-Dynamic-Array/08-Dynamic-Array.iml" filepath="$PROJECT_DIR$/05-Arrays/08-Dynamic-Array/08-Dynamic-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Linked-List/08-LinkedList-Performance/08-LinkedList-Performance.iml" filepath="$PROJECT_DIR$/07-Linked-List/08-LinkedList-Performance/08-LinkedList-Performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/08-Queues-Comparison/08-Queues-Comparison.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/08-Queues-Comparison/08-Queues-Comparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Recursion/08-Recursive-LinkedList/08-Recursive-LinkedList.iml" filepath="$PROJECT_DIR$/08-Recursion/08-Recursive-LinkedList/08-Recursive-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Linear-Search/09-Test-Performance/09-Test-Performance.iml" filepath="$PROJECT_DIR$/02-Linear-Search/09-Test-Performance/09-Test-Performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Arrays/10-Amortized-Time-Complexity/10-Amortized-Time-Complexity.iml" filepath="$PROJECT_DIR$/05-Arrays/10-Amortized-Time-Complexity/10-Amortized-Time-Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/10-Loop-Queue-without-Wasting-One-Space/10-Loop-Queue-without-Wasting-One-Space.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/10-Loop-Queue-without-Wasting-One-Space/10-Loop-Queue-without-Wasting-One-Space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/11-Loop-Queue-without-Size-Member/11-Loop-Queue-without-Size-Member.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/11-Loop-Queue-without-Size-Member/11-Loop-Queue-without-Size-Member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Stacks-and-Queues/13-Deque/13-Deque.iml" filepath="$PROJECT_DIR$/06-Stacks-and-Queues/13-Deque/13-Deque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/source.iml" filepath="$PROJECT_DIR$/.idea/source.iml" />
+    </modules>
+  </component>
+</project>
