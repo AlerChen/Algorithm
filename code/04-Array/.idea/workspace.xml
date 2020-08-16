@@ -20,24 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c15884-8972-45bd-a664-29711b5def24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Array.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/a_Array_OwnArray/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/b_Add_Element_In_Array/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/.idea/source.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/c_Query_And_Update_Element/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/05-Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04-Array/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04-Array/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04-Array/com/company/b_Add_Element_In_Array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04-Array/com/company/b_Add_Element_In_Array/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/03-Insertion-Sort/com/company/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/03-Insertion-Sort/com/company/InsertionSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +64,7 @@
       <recent name="com.company.b_Add_Element_In_Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.b_Add_Element_In_Array.Array" />
       <module name="04-Array" />
@@ -97,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
@@ -125,5 +119,47 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1597544835124">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.777@0.23.1280.777" timestamp="1597544835124" />
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1597544535635">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1597544535635" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1597553749367">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597553749367" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1597553749364">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597553749364" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1597553749362">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597553749362" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1597553749365">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597553749365" />
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1596975943580">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1596975943580" />
+    <state width="1238" height="246" key="GridCell.Tab.1.center" timestamp="1596975943578">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1596975943578" />
+    <state width="1238" height="246" key="GridCell.Tab.1.left" timestamp="1596975943578">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1596975943578" />
+    <state width="1238" height="246" key="GridCell.Tab.1.right" timestamp="1596975943579">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1596975943579" />
   </component>
 </project>

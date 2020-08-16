@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-Array-Basics/02-Array-Basics.iml" filepath="$PROJECT_DIR$/02-Array-Basics/02-Array-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Create-Our-Own-Array/03-Create-Our-Own-Array.iml" filepath="$PROJECT_DIR$/03-Create-Our-Own-Array/03-Create-Our-Own-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Add-Element-in-Array/04-Add-Element-in-Array.iml" filepath="$PROJECT_DIR$/04-Add-Element-in-Array/04-Add-Element-in-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/05-Arrays.iml" filepath="$PROJECT_DIR$/.idea/05-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Query-and-Update-Element/05-Query-and-Update-Element.iml" filepath="$PROJECT_DIR$/05-Query-and-Update-Element/05-Query-and-Update-Element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Contain-Find-and-Remove/06-Contain-Find-and-Remove.iml" filepath="$PROJECT_DIR$/06-Contain-Find-and-Remove/06-Contain-Find-and-Remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Generic-Data-Structures/07-Generic-Data-Structures.iml" filepath="$PROJECT_DIR$/07-Generic-Data-Structures/07-Generic-Data-Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Dynamic-Array/08-Dynamic-Array.iml" filepath="$PROJECT_DIR$/08-Dynamic-Array/08-Dynamic-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-Amortized-Time-Complexity/10-Amortized-Time-Complexity.iml" filepath="$PROJECT_DIR$/10-Amortized-Time-Complexity/10-Amortized-Time-Complexity.iml" />
+    </modules>
+  </component>
+</project>
