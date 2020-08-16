@@ -1,11 +1,13 @@
 package com.company;
 
 import com.company.a_Array_Stack.ArrayStack;
+import com.company.b_A_Stack_Problem_in_Leetcode.Solution;
 
 public class Main {
 
     public static void main(String[] args) {
-        testForArrayStack();
+        //testForArrayStack();
+        testForSolution();
     }
 
     public static void testForArrayStack() {
@@ -16,6 +18,19 @@ public class Main {
         }
         arrayStack.pop();
         System.out.println(arrayStack);
+    }
+
+    public static void testForSolution(){
+        String str = "([{}])";
+        boolean res = Solution.isValid(str);
+        System.out.println(str + " " + res );
+        /*
+        ()[]{} true
+        ()[]{}) false
+        }()[]{} false
+        ([{}]) true
+        2([{}])
+        */
     }
 
 
