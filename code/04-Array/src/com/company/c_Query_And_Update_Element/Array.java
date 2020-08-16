@@ -49,7 +49,7 @@ public class Array {
         add(size,e);
     }
 
-    public void addFirst(int index, int e){
+    public void addFirst(int e){
         this.add(0,e);
     }
 
@@ -100,7 +100,7 @@ public class Array {
         StringBuilder res = new StringBuilder();
         res.append(java.lang.String.format("Array: size = %d , capacity = %d \n",size, data.length));
         res.append("[");
-        for (int i = 0; i < size -1; i++) {
+        for (int i = 0; i < size ; i++) {
             res.append(data[i]);
             if (i != size - 1){
                 res.append(",");

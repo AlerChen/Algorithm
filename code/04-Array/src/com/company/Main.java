@@ -7,13 +7,20 @@ public class Main {
     public static void main(String[] args) {
 
         Array arr = new Array(20);
-        arr.addLast(3);
-        arr.addLast(2);
-        arr.addLast(1);
-        arr.addLast(4);
-        arr.addLast(5);
-        arr.addLast(8);
+        for (int i = 0; i < 10; i++)
+            arr.addLast(i);
+        System.out.println(arr);
 
+        arr.addLast(1);
+        System.out.println(arr);
+
+        arr.addFirst(-1);
+        System.out.println(arr);
+
+        int t = arr.get(1);
+        System.out.println(arr);
+
+        arr.set(0,9);
         System.out.println(arr);
 
     }

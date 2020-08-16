@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c15884-8972-45bd-a664-29711b5def24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/c_Query_And_Update_Element/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/05-Arrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../source/05-Arrays/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/04-Array/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04-Array/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-Array/com/company/b_Add_Element_In_Array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/04-Array/com/company/b_Add_Element_In_Array/Array.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/03-Insertion-Sort/com/company/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/03-Insertion-Sort/com/company/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/c_Query_And_Update_Element/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/c_Query_And_Update_Element/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -129,22 +122,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1597544535635" />
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1597553749367">
+    <state width="1238" height="228" key="GridCell.Tab.0.bottom" timestamp="1597556961434">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597553749367" />
-    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1597553749364">
+    <state width="1238" height="228" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597556961434" />
+    <state width="1238" height="228" key="GridCell.Tab.0.center" timestamp="1597556961433">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597553749364" />
-    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1597553749362">
+    <state width="1238" height="228" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597556961433" />
+    <state width="1238" height="228" key="GridCell.Tab.0.left" timestamp="1597556961432">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597553749362" />
-    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1597553749365">
+    <state width="1238" height="228" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597556961432" />
+    <state width="1238" height="228" key="GridCell.Tab.0.right" timestamp="1597556961433">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597553749365" />
+    <state width="1238" height="228" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597556961433" />
     <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1596975943580">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
