@@ -141,7 +141,8 @@ public class Array {
     // 从数组中删除元素e
     public void removeElement(int e){
         int index = this.find(e);
-        remove(index);
+        if (index != -1)
+            remove(index);
     }
 
     // toString
