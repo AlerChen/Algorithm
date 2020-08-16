@@ -2,12 +2,26 @@ package com.company;
 
 import com.company.a_Array_Stack.ArrayStack;
 import com.company.b_A_Stack_Problem_in_Leetcode.Solution;
+import com.company.c_Array_Queue.ArrayQueue;
 
 public class Main {
 
     public static void main(String[] args) {
         //testForArrayStack();
-        testForSolution();
+        //testForSolution();
+        testForArrayQueue();
+    }
+
+    public static void testForArrayQueue() {
+        ArrayQueue<Integer> arrayQueue = new ArrayQueue();
+        for (int i = 0; i < 10; i++) {
+            arrayQueue.enQueue(i);
+            System.out.println(arrayQueue);
+            if (i % 3 == 2 ) {
+                arrayQueue.deQueue();
+                System.out.println(arrayQueue);
+            }
+        }
     }
 
     public static void testForArrayStack() {
@@ -32,6 +46,8 @@ public class Main {
         2([{}])
         */
     }
+
+
 
 
 }
