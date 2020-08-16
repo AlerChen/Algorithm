@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-Array-Stack/02-Array-Stack.iml" filepath="$PROJECT_DIR$/02-Array-Stack/02-Array-Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/03-A-Stack-Problem-in-Leetcode.iml" filepath="$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/03-A-Stack-Problem-in-Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-More-about-Leetcode/04-More-about-Leetcode.iml" filepath="$PROJECT_DIR$/04-More-about-Leetcode/04-More-about-Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Array-Queue/05-Array-Queue.iml" filepath="$PROJECT_DIR$/05-Array-Queue/05-Array-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Loop-Queue/06-Loop-Queue.iml" filepath="$PROJECT_DIR$/06-Loop-Queue/06-Loop-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/06-Stacks-and-Queues.iml" filepath="$PROJECT_DIR$/.idea/06-Stacks-and-Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Implementation-of-Loop-Queue/07-Implementation-of-Loop-Queue.iml" filepath="$PROJECT_DIR$/07-Implementation-of-Loop-Queue/07-Implementation-of-Loop-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Queues-Comparison/08-Queues-Comparison.iml" filepath="$PROJECT_DIR$/08-Queues-Comparison/08-Queues-Comparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-Loop-Queue-without-Wasting-One-Space/10-Loop-Queue-without-Wasting-One-Space.iml" filepath="$PROJECT_DIR$/10-Loop-Queue-without-Wasting-One-Space/10-Loop-Queue-without-Wasting-One-Space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Loop-Queue-without-Size-Member/11-Loop-Queue-without-Size-Member.iml" filepath="$PROJECT_DIR$/11-Loop-Queue-without-Size-Member/11-Loop-Queue-without-Size-Member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-Deque/13-Deque.iml" filepath="$PROJECT_DIR$/13-Deque/13-Deque.iml" />
+    </modules>
+  </component>
+</project>
