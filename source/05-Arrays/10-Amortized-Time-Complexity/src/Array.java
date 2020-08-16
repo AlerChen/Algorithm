@@ -46,7 +46,6 @@ public class Array<E> {
 
         size ++;
     }
-
     // 向所有元素后添加一个新元素
     public void addLast(E e){
         add(size, e);

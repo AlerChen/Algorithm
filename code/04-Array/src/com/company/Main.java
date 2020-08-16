@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.f_Dynamic_Array.Array;
+import com.company.g_Amortized_Time_Complexity.Array;
 
 public class Main {
 
