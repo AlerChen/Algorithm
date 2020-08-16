@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c15884-8972-45bd-a664-29711b5def24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/d_Contain_Find_And_Remove/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/d_Contain_Find_And_Remove/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/e_Generic_Data_Structures/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.e_Generic_Data_Structures" />
       <recent name="com.company.b_Add_Element_In_Array" />
     </key>
   </component>
