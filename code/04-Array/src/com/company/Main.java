@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.c_Query_And_Update_Element.Array;
+import com.company.d_Contain_Find_And_Remove.Array;
 
 public class Main {
 
@@ -22,6 +22,19 @@ public class Main {
 
         arr.set(0,9);
         System.out.println(arr);
+
+        arr.removeLast();
+        System.out.println(arr);
+
+        arr.removeFirst();
+        System.out.println(arr);
+
+        arr.remove(3);
+        System.out.println(arr);
+
+        arr.removeElement(7);
+        System.out.println(arr);
+
 
     }
 }
