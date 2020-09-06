@@ -3,13 +3,28 @@ package com.company;
 import com.company.a_Array_Stack.ArrayStack;
 import com.company.b_A_Stack_Problem_in_Leetcode.Solution;
 import com.company.c_Array_Queue.ArrayQueue;
+import com.company.d_Loop_Queue.LoopQueue;
 
 public class Main {
 
     public static void main(String[] args) {
         //testForArrayStack();
         //testForSolution();
-        testForArrayQueue();
+        //testForArrayQueue();
+        testForLoopQueue();
+    }
+
+    public static void testForLoopQueue() {
+        LoopQueue<Integer> loopQueue = new LoopQueue<>(10);
+        for (int i = 0; i < 10; i++) {
+            loopQueue.enqueue(i);
+            System.out.println(loopQueue);
+            if (i % 3 == 2){
+                // 每入队3个,出队一个
+                loopQueue.dequeue();
+                System.out.println(loopQueue);
+            }
+        }
     }
 
     public static void testForArrayQueue() {
