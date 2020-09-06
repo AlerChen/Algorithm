@@ -44,7 +44,7 @@ public class LoopQueue<E> implements Queue<E>{
             // 队列满
             resize(getCapacity() * 2);
         }
-        data[tail + 1] = e;
+        data[tail] = e;
         tail = (tail + 1) % data.length;
         size ++;
     }
@@ -96,10 +96,10 @@ public class LoopQueue<E> implements Queue<E>{
         StringBuffer res = new StringBuffer();
         res.append(String.format("Queue: size = %d, capacity = %d \n",size,getCapacity()));
         res.append("front [");
-        for (int i = 0; i < size; i++) {
+        for (int i = front; i != tail ; i = (i + 1) % data.length) {
             res.append(data[i]);
-            if ((front + 1) % data.length != tail){
-                    res.append(", ");
+            if ((i + 1) % data.length != tail){
+                res.append(", ");
             }
         }
         res.append("] tail");
