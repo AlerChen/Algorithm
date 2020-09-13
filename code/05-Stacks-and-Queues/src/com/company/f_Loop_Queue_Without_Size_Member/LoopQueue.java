@@ -22,9 +22,13 @@ public class LoopQueue<E> implements Queue<E> {
         this(10);
     }
 
-    @Override
+    //@Override
+    //public int getSize() { return data.length;}
+    // 老师解法 : 不用size成员变量
+    // if tail < front -> 进入循环队列 -> tail - front -> 负数 -> 负数(两个元素是空的) + 容量 -> 真实元素个数
     public int getSize() {
-        return data.length;
+        return tail >= front ? tail - front : tail - front + data.length;
+
     }
 
     public int getCapacity(){
@@ -92,7 +96,7 @@ public class LoopQueue<E> implements Queue<E> {
     public String toString() {
 
         StringBuffer res = new StringBuffer();
-        res.append(String.format("Queue: size = %d, capacity = %d \n",data.length,getCapacity()));
+        res.append(String.format("Queue: size = %d, capacity = %d \n",getSize(),getCapacity()));
         res.append("front [");
         for (int i = front; i != tail ; i = (i + 1) % data.length) {
             res.append(data[i]);
