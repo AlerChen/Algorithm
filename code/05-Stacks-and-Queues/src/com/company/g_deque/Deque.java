@@ -2,7 +2,8 @@ package com.company.g_deque;
 
 
 /*
-    双端队列
+    双端队列_浪费一个空间
+    老师解法是不浪费一个空间的
 */
 public class Deque <E> {
 
@@ -62,11 +63,14 @@ public class Deque <E> {
         if ((tail + 1) % data.length == front){
             resize(getCapacity() * 2);
         }
-        if (front - 1 < 0){
-            front = ((front - 1) + data.length) % data.length;
-        }else {
-            front = (front - 1) % data.length;
-        }
+        // 个人解法
+        // if (front - 1 < 0){
+            // front = ((front - 1) + data.length) % data.length;
+        // }else {
+            // front = (front - 1) % data.length;
+        // }
+        // 老师解法
+        front = front == 0 ? data.length - 1 : front - 1;
         data[front] = e;
         size ++;
     }
@@ -79,6 +83,10 @@ public class Deque <E> {
         data[front] = null;
         front = (front + 1) % data.length;
         size--;
+        // 老师解法: 补充缩容操作
+        if (size == getSize()/4 && (getCapacity()/2) != 0){
+            resize(getCapacity()/2);
+        }
         return e;
     }
 
@@ -88,9 +96,33 @@ public class Deque <E> {
         }
         E e = data[tail];
         data[tail] = null;
-        tail = (tail - 1) % data.length;
+        // 个人解法: 不正确 会有负数的出现
+        // tail = (tail - 1) % data.length;
+        // 老师解法:
+        // 计算删除掉队尾元素以后，新的 tail 位置
+        tail = tail == 0 ? data.length -1 : tail - 1;
         size--;
+        // 老师解法: 补充缩容操作
+        if (size == getCapacity()/4 && (getCapacity()/2) != 0){
+            resize(getCapacity()/2);
+        }
         return e;
+    }
+
+    // 老师解法 : 补充获取队列头元素
+    public E getFront(){
+        if (isEmpty()){
+            return null;
+        }
+        return data[front];
+    }
+
+    // 老师解法 : 补充获取队列尾元素
+    public E getTail(){
+        if (isEmpty()){
+            return null;
+        }
+        return data[tail];
     }
 
     @Override
@@ -110,6 +142,7 @@ public class Deque <E> {
 
     public static void main(String[] args) {
         Deque<Integer> deque = new Deque<>(10);
+        // enqueue
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0){
                 deque.addLast(i);
@@ -117,8 +150,15 @@ public class Deque <E> {
                 deque.addFirst(i);
             }
             System.out.println(deque);
-            if (i % 3 == 2){
-                // 每入队3个,出队一个
+        }
+
+        System.out.println(deque);
+        // dequeue
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 == 0){
+                deque.removeFirst();
+                System.out.println(deque);
+            }else {
                 deque.removeLast();
                 System.out.println(deque);
             }
