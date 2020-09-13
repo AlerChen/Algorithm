@@ -14,7 +14,10 @@ public class LoopQueue<E> implements Queue<E> {
         // 多留一个空位,为了区别 :
         //  front == tail 为队列空,
         //  (tail + 1) % data.length == front 为队列满.
-        data = (E[])new Object[capacity +1];
+        //data = (E[])new Object[capacity +1];
+        // 老师解法: 不使用多一个空间
+        // 使用size和getCapacity来维护队列的元素个数
+        data = (E[])new Object[capacity];
         size = 0;
         front = 0;
         tail = 0;
@@ -29,18 +32,29 @@ public class LoopQueue<E> implements Queue<E> {
         return data.length;
     }
 
+    //public int getCapacity(){return data.length -1;}
+    // 老师解法
     public int getCapacity(){
-        return data.length -1;
+        return data.length;
     }
 
     @Override
     public boolean isEmpty() {
-        return (front == tail) && (size == 0);
+        // 个人解法
+        // return (front == tail) && (size == 0);
+        // 老师解法
+        // 注意，我们不再使用front和tail之间的关系来判断队列是否为空，而直接使用size
+        return size == 0;
     }
 
     @Override
     public void enqueue(E e) {
-        if ((tail + 1) % data.length == front && size != 0){
+        // 个人解法
+        //if ((tail + 1) % data.length == front && size != 0){
+        // 老师解法
+        // 注意，我们不再使用front和tail之间的关系来判断队列是否为满，而直接使用size
+        // 直接使用size和getCapacity来维护队列 full 和 empty 的情况
+        if(size == getCapacity()){
             // 队列满
             resize(getCapacity() * 2);
         }
@@ -96,12 +110,22 @@ public class LoopQueue<E> implements Queue<E> {
         StringBuffer res = new StringBuffer();
         res.append(String.format("Queue: size = %d, capacity = %d \n",size,getCapacity()));
         res.append("front [");
-        for (int i = front; i != tail ; i = (i + 1) % data.length) {
-            res.append(data[i]);
-            if ((i + 1) % data.length != tail){
+        // for (int i = front; i != tail ; i = (i + 1) % data.length) {
+        //    res.append(data[i]);
+        //    if ((i + 1) % data.length != tail){
+        //        res.append(", ");
+        //    }
+        // }
+        // 老师解法:
+        // 注意，我们的循环遍历打印队列的逻辑也有相应的更改 :-)
+        for (int i = 0; i < size; i++) {
+            res.append(data[(i + front) % data.length]);
+            // 判断是否到达倒数第二个元素,添加','符号 与多一个空间的事情没有关联
+            if ((i + front + 1) % data.length != tail){
                 res.append(", ");
             }
         }
+
         res.append("] tail");
         return res.toString();
     }
