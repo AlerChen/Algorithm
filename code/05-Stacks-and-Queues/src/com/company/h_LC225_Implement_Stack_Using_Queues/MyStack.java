@@ -1,4 +1,4 @@
-package com.company.h_LC255_Implement_Stack_Using_Queues;
+package com.company.h_LC225_Implement_Stack_Using_Queues;
 import com.company.d_Loop_Queue.LoopQueue;
 
 
