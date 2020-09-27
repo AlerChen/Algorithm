@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /*
-* 作业优化: 使用队列实现栈, 要求: push() O(n),top() O(1).
+* 作业优化: 使用队列实现栈, 要求: push() O(n),top(1) O(1).
 * */
 public class MyStack_01 <E> {
 
@@ -92,5 +92,23 @@ public class MyStack_01 <E> {
         Integer i  = stack.top();
         System.out.println(stack);
         System.out.println("peek top element is " + i);
+
+        /*
+
+        stack
+        MyStack_01{queue=[], topElement=null}
+        push
+        MyStack_01{queue=[0], topElement=0}
+        push
+        MyStack_01{queue=[0, 1], topElement=1}
+        push
+        MyStack_01{queue=[0, 1, 2], topElement=2}
+        pop
+        MyStack_01{queue=[0, 1], topElement=1}
+        top
+        MyStack_01{queue=[0, 1], topElement=1}
+        peek top element is 1
+
+        */
     }
 }
