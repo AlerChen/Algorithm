@@ -33,19 +33,33 @@ public class MyStack_01 <E> {
         return topElement;
     }
 
-    // pop O(n)
+//    // pop O(n) 个人解法
+//    public E pop(){
+//        Queue<E> tempQueue = new LinkedList<>();
+//        E topE = null;
+//        while (!queue.isEmpty()){
+//            E e = queue.remove();
+//            if (!queue.isEmpty()){
+//                tempQueue.add(e);
+//                topElement = e;
+//            }else {
+//                topE = e;
+//            }
+//        }
+//        queue = tempQueue;
+//        return topE;
+//    }
+
+    // pop O(n) 老师解法
     public E pop(){
         Queue<E> tempQueue = new LinkedList<>();
-        E topE = null;
-        while (!queue.isEmpty()){
-            E e = queue.remove();
-            if (!queue.isEmpty()){
-                tempQueue.add(e);
-                topElement = e;
-            }else {
-                topE = e;
-            }
+        while (queue.size() > 1){
+            // 除了队列最后一个不出队,最后一个队首元素即新的top
+            topElement = queue.peek();
+            tempQueue.add(queue.remove());
         }
+        // 最后一个元素(队列尾)
+        E topE = queue.remove();
         queue = tempQueue;
         return topE;
     }
