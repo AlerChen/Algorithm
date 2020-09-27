@@ -16,3 +16,4 @@ start at 2020/7/26
 
 0920 17:48 Queue homework : 1.implement of stack using queues. 2.implement of queue using stacks. at library.
 
+0927 17:53 Fix queue homework and optimize stack. at library.
