@@ -17,14 +17,26 @@ public class MyStack_02 <E> {
     }
 
     /** Public Method */
+    // 个人解法
+//    public void push(E e){
+//        Queue<E> tempQueue = new LinkedList<>();
+//        tempQueue.add(e);
+//        // the first element
+//        if (queue.isEmpty()){
+//            queue = tempQueue;
+//            return;
+//        }
+//        while (!queue.isEmpty()){
+//            E tempE = queue.remove();
+//            tempQueue.add(tempE);
+//        }
+//        queue = tempQueue;
+//    }
+
+    // 老师解法
     public void push(E e){
         Queue<E> tempQueue = new LinkedList<>();
         tempQueue.add(e);
-        // the first element
-        if (queue.isEmpty()){
-            queue = tempQueue;
-            return;
-        }
         while (!queue.isEmpty()){
             E tempE = queue.remove();
             tempQueue.add(tempE);
