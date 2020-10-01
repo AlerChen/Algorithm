@@ -4,6 +4,7 @@ import java.util.Stack;
 /*
 * 作业: 使用栈实现队列
 * 实现思路: 队列尾为栈底,队列头为栈顶,入队即入栈,出队时需要辅助栈把元素倒过来.
+* 时间复杂度: enqueue O(1), dequeue O(n), getFront O(n) .
 * */
 public class MyQueue <E>{
 
