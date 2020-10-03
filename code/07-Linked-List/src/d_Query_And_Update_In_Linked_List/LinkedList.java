@@ -1,4 +1,4 @@
-package c_DummyHead_In_Linked_List;
+package d_Query_And_Update_In_Linked_List;
 
 /*
 * 链表
@@ -82,6 +82,47 @@ public class LinkedList<E>{
         add(e,size);
     }
 
+    public E get(int index){
+        if (index < 0 || index > size){
+            throw new IllegalArgumentException("get filed. illegal index");
+        }
+        Node curNode = dummyHead.next;
+        for (int i = 0; i < size; i++) {
+            curNode = curNode.next;
+        }
+        return curNode.e;
+    }
+
+    public E getFirst(){
+        return get(0);
+    }
+
+    public E getLast(){
+        return get(size-1);
+    }
+
+    public void set(E e,int index){
+        if (index < 0 || index > size){
+            throw new IllegalArgumentException("get filed. illegal index");
+        }
+        Node curNode = dummyHead.next;
+        for (int i = 0; i < size; i++) {
+            curNode = curNode.next;
+        }
+        curNode.e = e;
+    }
+
+    public boolean contains(E e){
+        Node curNode = dummyHead.next;
+        while (curNode != null){
+            if (curNode.e == e){
+                return true;
+            }
+            curNode = curNode.next;
+        }
+        return false;
+    }
+
     public void printSelf(){
         if (size == 0) return;
         Node curNode = dummyHead.next;
@@ -99,10 +140,12 @@ public class LinkedList<E>{
 
     @Override
     public String toString() {
-        return "LinkedList{" +
-                "dummyHead=" + dummyHead +
-                ", size=" + size +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        for (Node curNode = dummyHead.next; curNode != null; curNode = curNode.next) {
+            sb.append(curNode + "->");
+        }
+        sb.append("null");
+        return sb.toString();
     }
 
     public static void main(String[] args) {

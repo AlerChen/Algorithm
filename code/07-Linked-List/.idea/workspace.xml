@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/c_DummyHead_In_Linked_List/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d_Query_And_Update_In_Linked_List/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c_DummyHead_In_Linked_List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c_DummyHead_In_Linked_List/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="d_Query_And_Update_In_Linked_List" />
       <recent name="c_DummyHead_In_Linked_List" />
       <recent name="b_Add_Elements_In_Linked_List" />
     </key>
@@ -127,10 +129,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1601695752258" />
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601708816526">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601711252243">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601708816526" />
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601711252243" />
     <state width="1238" height="540" key="GridCell.Tab.0.bottom" timestamp="1601709594545">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
