@@ -79,7 +79,9 @@ public class LinkedList<E>{
             addFirst(e);
         }else {
             Node preNode = head;
-            for (int i = 0; i < index; i++)
+            // for (int i = 0; i < index; i++)
+            // fix: 因为头结点head也计入size计算, 所以寻找插入点之前的节点为: n-1
+            for (int i = 0; i < index -1; i++)
                 preNode = preNode.next;
 
             // Node newNode = new Node(e);
@@ -93,7 +95,7 @@ public class LinkedList<E>{
     }
 
     public void addLast(E e){
-        add(e,size-1);
+        add(e,size);
     }
 
     @Override
@@ -104,34 +106,53 @@ public class LinkedList<E>{
                 '}';
     }
 
+    public void printSelf(){
+        if (size == 0) return;
+        Node curNode = head;
+        for (int i = 0; i < size; i++) {
+            if (i != size-1){
+                System.out.print(curNode + " -> ");
+                curNode = curNode.next;
+            }else {
+                System.out.print(curNode + ".");
+            }
+        }
+        System.out.println(" ");
+    }
+
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList();
         System.out.println("LinkedList");
         System.out.println(linkedList);
+        linkedList.printSelf();
         linkedList.addFirst(1);
         System.out.println("addFirst");
         System.out.println(linkedList);
+        linkedList.printSelf();
         linkedList.addFirst(2);
         System.out.println("addFirst");
         System.out.println(linkedList);
+        linkedList.printSelf();
+        linkedList.add(66,1);
+        System.out.println("add 66 at index 1");
+        System.out.println(linkedList);
+        linkedList.printSelf();
         linkedList.addFirst(3);
         System.out.println("addFirst");
         System.out.println(linkedList);
-        linkedList.addFirst(4);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
-        linkedList.addFirst(5);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
+        linkedList.printSelf();
         linkedList.add(99,1);
         System.out.println("add 99 at index 1");
         System.out.println(linkedList);
-        linkedList.addFirst(6);
+        linkedList.printSelf();
+        linkedList.addFirst(4);
         System.out.println("addFirst");
         System.out.println(linkedList);
+        linkedList.printSelf();
         linkedList.addLast(-1);
         System.out.println("addLast");
         System.out.println(linkedList);
+        linkedList.printSelf();
 
         /*
 
@@ -139,20 +160,25 @@ public class LinkedList<E>{
         LinkedList{head=null, size=0}
         addFirst
         LinkedList{head=1, size=1}
+        1.
         addFirst
         LinkedList{head=2, size=2}
+        2 -> 1.
+        add 66 at index 1
+        LinkedList{head=2, size=3}
+        2 -> 66 -> 1.
         addFirst
-        LinkedList{head=3, size=3}
-        addFirst
-        LinkedList{head=4, size=4}
-        addFirst
-        LinkedList{head=5, size=5}
+        LinkedList{head=3, size=4}
+        3 -> 2 -> 66 -> 1.
         add 99 at index 1
-        LinkedList{head=5, size=6}
+        LinkedList{head=3, size=5}
+        3 -> 99 -> 2 -> 66 -> 1.
         addFirst
-        LinkedList{head=6, size=7}
+        LinkedList{head=4, size=6}
+        4 -> 3 -> 99 -> 2 -> 66 -> 1.
         addLast
-        LinkedList{head=6, size=8}
+        LinkedList{head=4, size=7}
+        4 -> 3 -> 99 -> 2 -> 66 -> 1 -> -1.
 
         */
     }
