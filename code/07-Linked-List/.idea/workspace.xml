@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/c_DummyHead_In_Linked_List/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/b_Add_Elements_In_Linked_List/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/b_Add_Elements_In_Linked_List/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_Add_Elements_In_Linked_List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_Add_Elements_In_Linked_List/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +57,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="c_DummyHead_In_Linked_List" />
       <recent name="b_Add_Elements_In_Linked_List" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LinkedList (1)">
+    <configuration name="LinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c_DummyHead_In_Linked_List.LinkedList" />
+      <module name="07-Linked-List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c_DummyHead_In_Linked_List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b_Add_Elements_In_Linked_List.LinkedList" />
       <module name="07-Linked-List" />
@@ -77,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList (1)" />
         <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
@@ -113,41 +127,41 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1601695752258" />
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601699549255">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601708816526">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601699549255" />
-    <state width="1238" height="550" key="GridCell.Tab.0.bottom" timestamp="1601707712818">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601708816526" />
+    <state width="1238" height="540" key="GridCell.Tab.0.bottom" timestamp="1601709594545">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601707712818" />
-    <state width="1238" height="550" key="GridCell.Tab.0.center" timestamp="1601707712817">
+    <state width="1238" height="540" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601709594545" />
+    <state width="1238" height="540" key="GridCell.Tab.0.center" timestamp="1601709594544">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601707712817" />
-    <state width="1238" height="550" key="GridCell.Tab.0.left" timestamp="1601707712817">
+    <state width="1238" height="540" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601709594544" />
+    <state width="1238" height="540" key="GridCell.Tab.0.left" timestamp="1601709594543">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601707712817" />
-    <state width="1238" height="550" key="GridCell.Tab.0.right" timestamp="1601707712818">
+    <state width="1238" height="540" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601709594543" />
+    <state width="1238" height="540" key="GridCell.Tab.0.right" timestamp="1601709594544">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601707712818" />
-    <state width="1238" height="352" key="GridCell.Tab.1.bottom" timestamp="1601707445139">
+    <state width="1238" height="540" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601709594544" />
+    <state width="1238" height="543" key="GridCell.Tab.1.bottom" timestamp="1601709570841">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="352" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601707445139" />
-    <state width="1238" height="352" key="GridCell.Tab.1.center" timestamp="1601707445137">
+    <state width="1238" height="543" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601709570841" />
+    <state width="1238" height="543" key="GridCell.Tab.1.center" timestamp="1601709570840">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="352" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601707445137" />
-    <state width="1238" height="352" key="GridCell.Tab.1.left" timestamp="1601707445136">
+    <state width="1238" height="543" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601709570840" />
+    <state width="1238" height="543" key="GridCell.Tab.1.left" timestamp="1601709570839">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="352" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601707445136" />
-    <state width="1238" height="352" key="GridCell.Tab.1.right" timestamp="1601707445138">
+    <state width="1238" height="543" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601709570839" />
+    <state width="1238" height="543" key="GridCell.Tab.1.right" timestamp="1601709570840">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="352" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601707445138" />
+    <state width="1238" height="543" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601709570840" />
   </component>
 </project>
