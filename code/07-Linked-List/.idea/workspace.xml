@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/g_Implement_Stack_Using_Linked_List/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/g_Implement_Stack_Using_Linked_List/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/g_Implement_Stack_Using_Linked_List/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/g_Implement_Stack_Using_Linked_List/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/g_Implement_Stack_Using_Linked_List/LinkedListStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +60,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="h_Implement_Queue_Using_Linked_List" />
       <recent name="g_Implement_Stack_Using_Linked_List" />
       <recent name="f_Time_Complexity_Of_Linked_List" />
       <recent name="e_Remove_In_Linked_List" />
       <recent name="d_Query_And_Update_In_Linked_List" />
-      <recent name="c_DummyHead_In_Linked_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListStack">
+  <component name="RunManager" selected="Application.LinkedListQueue">
     <configuration name="LinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c_DummyHead_In_Linked_List.LinkedList" />
       <module name="07-Linked-List" />
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b_Add_Elements_In_Linked_List.LinkedList" />
+    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h_Implement_Queue_Using_Linked_List.LinkedListQueue" />
       <module name="07-Linked-List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b_Add_Elements_In_Linked_List.*" />
+          <option name="PATTERN" value="h_Implement_Queue_Using_Linked_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.LinkedList (3)" />
         <item itemvalue="Application.LinkedList (2)" />
         <item itemvalue="Application.LinkedList (1)" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -174,41 +175,41 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1601695752258" />
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601782743160">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601792327667">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601782743160" />
-    <state width="1238" height="550" key="GridCell.Tab.0.bottom" timestamp="1601780802569">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601792327667" />
+    <state width="1238" height="476" key="GridCell.Tab.0.bottom" timestamp="1601795749480">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601780802569" />
-    <state width="1238" height="550" key="GridCell.Tab.0.center" timestamp="1601780802568">
+    <state width="1238" height="476" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
+    <state width="1238" height="476" key="GridCell.Tab.0.center" timestamp="1601795749480">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601780802568" />
-    <state width="1238" height="550" key="GridCell.Tab.0.left" timestamp="1601780802568">
+    <state width="1238" height="476" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
+    <state width="1238" height="476" key="GridCell.Tab.0.left" timestamp="1601795749479">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601780802568" />
-    <state width="1238" height="550" key="GridCell.Tab.0.right" timestamp="1601780802568">
+    <state width="1238" height="476" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601795749479" />
+    <state width="1238" height="476" key="GridCell.Tab.0.right" timestamp="1601795749480">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="550" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601780802568" />
-    <state width="1238" height="543" key="GridCell.Tab.1.bottom" timestamp="1601709570841">
+    <state width="1238" height="476" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
+    <state width="1238" height="17" key="GridCell.Tab.1.bottom" timestamp="1601794699859">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="543" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601709570841" />
-    <state width="1238" height="543" key="GridCell.Tab.1.center" timestamp="1601709570840">
+    <state width="1238" height="17" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601794699859" />
+    <state width="1238" height="17" key="GridCell.Tab.1.center" timestamp="1601794699858">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="543" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601709570840" />
-    <state width="1238" height="543" key="GridCell.Tab.1.left" timestamp="1601709570839">
+    <state width="1238" height="17" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601794699858" />
+    <state width="1238" height="17" key="GridCell.Tab.1.left" timestamp="1601794699858">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="543" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601709570839" />
-    <state width="1238" height="543" key="GridCell.Tab.1.right" timestamp="1601709570840">
+    <state width="1238" height="17" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601794699858" />
+    <state width="1238" height="17" key="GridCell.Tab.1.right" timestamp="1601794699858">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="543" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601709570840" />
+    <state width="1238" height="17" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601794699858" />
   </component>
 </project>
