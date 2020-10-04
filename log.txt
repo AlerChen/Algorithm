@@ -18,8 +18,7 @@ start at 2020/7/26
 
 0927 17:53 Fix queue homework and optimize stack. at library.
 
-1003 15:51 linked list query and update.
+1003 15:51 linked list query and update. at library.
 
-
-
+1004 20:51 linked list remove, time complexity, implement stack & queue, remove elements. at library.
 
