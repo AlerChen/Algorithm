@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/i_L203_Remove_Elements_In_Linked_List/Solution_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_L203_Remove_Elements_In_Linked_List/Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +64,7 @@
       <recent name="d_Query_And_Update_In_Linked_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution_04">
-    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h_Implement_Queue_Using_Linked_List.LinkedListQueue" />
-      <module name="07-Linked-List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="h_Implement_Queue_Using_Linked_List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="Solution_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Solution_01" />
       <module name="07-Linked-List" />
@@ -131,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Sum" />
+      <module name="07-Linked-List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="i_L203_Remove_Elements_In_Linked_List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.Solution_04" />
         <item itemvalue="Application.Solution_02" />
         <item itemvalue="Application.Solution_01" />
         <item itemvalue="Application.Solution_03" />
-        <item itemvalue="Application.LinkedListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +176,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601803498421" />
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1601811954492">
+    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1601812093819">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601811954492" />
-    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1601811954491">
+    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601812093819" />
+    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1601812093818">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601811954491" />
-    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1601811954491">
+    <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601812093818" />
+    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1601812093817">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601811954491" />
-    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1601811954492">
+    <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601812093817" />
+    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1601812093818">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601811954492" />
+    <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601812093818" />
     <state width="1238" height="183" key="GridCell.Tab.1.bottom" timestamp="1601811745294">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
