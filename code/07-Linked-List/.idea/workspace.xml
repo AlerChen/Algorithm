@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/g_Implement_Stack_Using_Linked_List/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/g_Implement_Stack_Using_Linked_List/LinkedListStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/h_Implement_Queue_Using_Linked_List/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/h_Implement_Queue_Using_Linked_List/LinkedListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,22 +178,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601792327667" />
-    <state width="1238" height="476" key="GridCell.Tab.0.bottom" timestamp="1601795749480">
+    <state width="1238" height="476" key="GridCell.Tab.0.bottom" timestamp="1601796641961">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="476" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
-    <state width="1238" height="476" key="GridCell.Tab.0.center" timestamp="1601795749480">
+    <state width="1238" height="476" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601796641961" />
+    <state width="1238" height="476" key="GridCell.Tab.0.center" timestamp="1601796641960">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="476" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
-    <state width="1238" height="476" key="GridCell.Tab.0.left" timestamp="1601795749479">
+    <state width="1238" height="476" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601796641960" />
+    <state width="1238" height="476" key="GridCell.Tab.0.left" timestamp="1601796641960">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="476" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601795749479" />
-    <state width="1238" height="476" key="GridCell.Tab.0.right" timestamp="1601795749480">
+    <state width="1238" height="476" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601796641960" />
+    <state width="1238" height="476" key="GridCell.Tab.0.right" timestamp="1601796641960">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="476" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601795749480" />
+    <state width="1238" height="476" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601796641960" />
     <state width="1238" height="17" key="GridCell.Tab.1.bottom" timestamp="1601794699859">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

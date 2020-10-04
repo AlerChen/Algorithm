@@ -52,33 +52,71 @@ public class LinkedListQueue <E> implements Queue<E>{
 
     /**
      * enqueue O(1)
+     * 老师解法
      * */
     @Override
-    public void enqueue(E e) {
-        if (isEmpty()){
-            Node newNode = new Node(e);
-            head = newNode;
-            tail = newNode;
-            size++;
-            return;
+    public void enqueue(E e){
+        if (tail == null){
+            tail = new Node(e);
+            head = tail;
+        } else {
+            tail.next = new Node(e);
+            tail = tail.next;
         }
-        Node newNode = new Node(e);
-        tail.next = newNode;
-        tail = newNode;
-        size++;
+        size ++;
+    }
+
+    /**
+     * enqueue O(1)
+     * 个人解法
+     * */
+    //    @Override
+    //    public void enqueue(E e) {
+    //        if (isEmpty()){
+    //            Node newNode = new Node(e);
+    //            head = newNode;
+    //            tail = newNode;
+    //            size++;
+    //            return;
+    //        }
+    //        Node newNode = new Node(e);
+    //        tail.next = newNode;
+    //        tail = newNode;
+    //        size++;
+    //    }
+
+    /**
+     * dequeue O(1)
+     * 老师解法
+     * */
+    @Override
+    public E dequeue() {
+        if (isEmpty()){
+            throw new IllegalArgumentException("dequeue failed. the queue is empty");
+        }
+        Node rmNode = head;
+        head = head.next;
+        rmNode.next = null;//清除引用
+        size--;
+        // 维护队列空情况
+        if (head == null){
+            tail = null;
+        }
+        return (E) rmNode.e;
     }
 
     /**
      * dequeue O(1)
+     * 个人解法
      * */
-    @Override
-    public E dequeue() {
-        if (head == null) return null;
-        Node rmNode = head;
-        head = head.next;
-        size--;
-        return (E) rmNode.e;
-    }
+    //    @Override
+    //    public E dequeue() {
+    //        if (head == null) return null;
+    //        Node rmNode = head;
+    //        head = head.next;
+    //        size--;
+    //        return (E) rmNode.e;
+    //    }
 
     /**
      * getFront O(1)
@@ -93,7 +131,7 @@ public class LinkedListQueue <E> implements Queue<E>{
      * */
     @Override
     public boolean isEmpty() {
-        return head == null && tail == null;
+        return size == 0;
     }
 
     /**
@@ -107,16 +145,14 @@ public class LinkedListQueue <E> implements Queue<E>{
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Head [ ");
+        sb.append("Queue: front ");
         Node curNode = head;
         while (curNode != null){
             sb.append(curNode);
-            if (curNode.next != null){
-                sb.append(" -> ");
-            }
+            sb.append(" -> ");
             curNode = curNode.next;
         }
-        sb.append(" ] Tail");
+        sb.append("null tail");
         return sb.toString();
     }
 
@@ -144,19 +180,19 @@ public class LinkedListQueue <E> implements Queue<E>{
         /**
 
          enqueue
-         Head [ 0 ] Tail
+         Queue: front 0 -> null tail
          enqueue
-         Head [ 0 -> 1 ] Tail
+         Queue: front 0 -> 1 -> null tail
          enqueue
-         Head [ 0 -> 1 -> 2 ] Tail
+         Queue: front 0 -> 1 -> 2 -> null tail
          dequeue
-         Head [ 1 -> 2 ] Tail
+         Queue: front 1 -> 2 -> null tail
          enqueue
-         Head [ 1 -> 2 -> 4 ] Tail
+         Queue: front 1 -> 2 -> 4 -> null tail
          enqueue
-         Head [ 1 -> 2 -> 4 -> 5 ] Tail
+         Queue: front 1 -> 2 -> 4 -> 5 -> null tail
          dequeue
-         Head [ 2 -> 4 -> 5 ] Tail
+         Queue: front 2 -> 4 -> 5 -> null tail
          isEmpty
          LinkedListQueue is empty ? false
          getSize
