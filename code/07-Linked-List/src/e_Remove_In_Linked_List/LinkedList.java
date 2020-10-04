@@ -146,7 +146,7 @@ public class LinkedList<E>{
         return remove(size-1);
     }
 
-    public E removeElement(E e){
+    public void removeElement(E e){
         Node preNode = dummyHead;
         while (preNode.next != null){
             if (preNode.next.e.equals(e))
@@ -154,13 +154,12 @@ public class LinkedList<E>{
             preNode = preNode.next;
         }
 
-        while (preNode.next != null){
+        while (preNode.next != null) {
             Node rmNode = preNode.next;
             preNode.next = rmNode.next;
             rmNode.next = null;
-            return rmNode.e;
+            size--;
         }
-        return null;
     }
 
     @Override
@@ -211,7 +210,7 @@ public class LinkedList<E>{
                 Integer e = linkedList.remove(2);
             } else if ( i == 13){
                 System.out.println("remove element of 0");
-                Integer e = linkedList.removeElement(0);
+                linkedList.removeElement(0);
             } else if ( i == 14){
                 System.out.println("contains element of 22");
                 boolean isContains = linkedList.contains(22);
