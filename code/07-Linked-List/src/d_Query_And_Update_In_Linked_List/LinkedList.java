@@ -87,7 +87,7 @@ public class LinkedList<E>{
             throw new IllegalArgumentException("get filed. illegal index");
         }
         Node curNode = dummyHead.next;
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < index; i++) {
             curNode = curNode.next;
         }
         return curNode.e;
@@ -106,7 +106,7 @@ public class LinkedList<E>{
             throw new IllegalArgumentException("get filed. illegal index");
         }
         Node curNode = dummyHead.next;
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < index; i++) {
             curNode = curNode.next;
         }
         curNode.e = e;
@@ -123,21 +123,6 @@ public class LinkedList<E>{
         return false;
     }
 
-    public void printSelf(){
-        if (size == 0) return;
-        Node curNode = dummyHead.next;
-        System.out.print("dummyHead -> ");
-        for (int i = 0; i < size; i++) {
-            if (i != size-1){
-                System.out.print(curNode + " -> ");
-                curNode = curNode.next;
-            }else {
-                System.out.print(curNode + " -> null ");
-            }
-        }
-        System.out.println(" ");
-    }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -152,62 +137,63 @@ public class LinkedList<E>{
         LinkedList<Integer> linkedList = new LinkedList();
         System.out.println("LinkedList");
         System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.addFirst(1);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.addFirst(2);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.add(66,1);
-        System.out.println("add 66 at index 1");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.addFirst(3);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.add(99,1);
-        System.out.println("add 99 at index 1");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.addFirst(4);
-        System.out.println("addFirst");
-        System.out.println(linkedList);
-        linkedList.printSelf();
-        linkedList.addLast(-1);
-        System.out.println("addLast");
-        System.out.println(linkedList);
-        linkedList.printSelf();
+
+        for (Integer i = 0; i < 10; i++) {
+            if (i == 3){
+                System.out.println("add 11 at index 1");
+                linkedList.add(11,1);
+            } else if ( i == 5){
+                System.out.println("add 22 at index 2");
+                linkedList.set(22,2);
+            } else if ( i == 6){
+                System.out.println("addLast");
+                linkedList.addLast(-1);
+            } else if ( i == 7){
+                System.out.println("get index of 3 element");
+                Integer e = linkedList.get(3);
+                System.out.println("get element is " + e);
+            } else if ( i == 8){
+                System.out.println("get first");
+                Integer e = linkedList.getFirst();
+                System.out.println("get thr first element is " + e);
+            } else if ( i == 9){
+                System.out.println("get last");
+                Integer e = linkedList.getLast();
+                System.out.println("get thr last element is " + e);
+            } else {
+                System.out.println("addFirst");
+                linkedList.addFirst(i);
+            }
+            // log linked list
+            System.out.println(linkedList);
+        }
 
         /*
-
         LinkedList
-        LinkedList{dummyHead=null, size=0}
+        null
         addFirst
-        LinkedList{dummyHead=null, size=1}
-        dummyHead -> 1 -> null
+        0->null
         addFirst
-        LinkedList{dummyHead=null, size=2}
-        dummyHead -> 2 -> 1 -> null
-        add 66 at index 1
-        LinkedList{dummyHead=null, size=3}
-        dummyHead -> 2 -> 66 -> 1 -> null
+        1->0->null
         addFirst
-        LinkedList{dummyHead=null, size=4}
-        dummyHead -> 3 -> 2 -> 66 -> 1 -> null
-        add 99 at index 1
-        LinkedList{dummyHead=null, size=5}
-        dummyHead -> 3 -> 99 -> 2 -> 66 -> 1 -> null
+        2->1->0->null
+        add 11 at index 1
+        2->11->1->0->null
         addFirst
-        LinkedList{dummyHead=null, size=6}
-        dummyHead -> 4 -> 3 -> 99 -> 2 -> 66 -> 1 -> null
+        4->2->11->1->0->null
+        add 22 at index 2
+        4->2->22->1->0->null
         addLast
-        LinkedList{dummyHead=null, size=7}
-        dummyHead -> 4 -> 3 -> 99 -> 2 -> 66 -> 1 -> -1 -> null
-
+        4->2->22->1->0->-1->null
+        get index of 3 element
+        get element is 1
+        4->2->22->1->0->-1->null
+        get first
+        get thr first element is 4
+        4->2->22->1->0->-1->null
+        get last
+        get thr last element is -1
+        4->2->22->1->0->-1->null
         */
     }
 }
