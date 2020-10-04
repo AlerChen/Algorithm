@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/i_L203_Remove_Elements_In_Linked_List/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_L203_Remove_Elements_In_Linked_List/Solution_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/h_Implement_Queue_Using_Linked_List/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/h_Implement_Queue_Using_Linked_List/LinkedListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h_Implement_Queue_Using_Linked_List/LinkedListQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
