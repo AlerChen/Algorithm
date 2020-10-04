@@ -25,4 +25,18 @@ public class Solution_03 {
         }
         return dummyHead.next;
     }
+
+    public static void main(String[] args) {
+        Solution_03 solution_03 = new Solution_03();
+        int[] arr = {1,2,3,6,5,6,7,8};
+        ListNode head = new ListNode(arr);
+        System.out.println(head);
+        solution_03.removeElements(head,6);
+        System.out.println(head);
+
+        /*
+        1 -> 2 -> 3 -> 6 -> 5 -> 6 -> 7 -> 8 -> null
+        1 -> 2 -> 3 -> 5 -> 7 -> 8 -> null
+        */
+    }
 }

@@ -29,4 +29,17 @@ public class Solution_02 {
         }
         return head;
     }
+
+    public static void main(String[] args) {
+        Solution_02 solution_02 = new Solution_02();
+        int[] arr = {1,2,3,6,5,6,7,8};
+        ListNode head = new ListNode(arr);
+        System.out.println(head);
+        solution_02.removeElements(head,6);
+        System.out.println(head);
+        /*
+        1 -> 2 -> 3 -> 6 -> 5 -> 6 -> 7 -> 8 -> null
+        1 -> 2 -> 3 -> 5 -> 7 -> 8 -> null
+        */
+    }
 }

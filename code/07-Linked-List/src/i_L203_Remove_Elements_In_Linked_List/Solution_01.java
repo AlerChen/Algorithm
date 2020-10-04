@@ -33,6 +33,17 @@ public class Solution_01 {
         return head;
     }
 
-
+    public static void main(String[] args) {
+        Solution_01 solution_01 = new Solution_01();
+        int[] arr = {1,2,3,6,5,6,7,8};
+        ListNode head = new ListNode(arr);
+        System.out.println(head);
+        solution_01.removeElements(head,6);
+        System.out.println(head);
+        /*
+        1 -> 2 -> 3 -> 6 -> 5 -> 6 -> 7 -> 8 -> null
+        1 -> 2 -> 3 -> 5 -> 7 -> 8 -> null
+        */
+    }
 
 }
