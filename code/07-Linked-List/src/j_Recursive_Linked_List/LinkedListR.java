@@ -1,6 +1,8 @@
 package j_Recursive_Linked_List;
 
 
+import javafx.util.Pair;
+
 /**
  *  作业更改: 使用递归实现链表的基本操作函数
  *  老师解法
@@ -73,6 +75,35 @@ public class LinkedListR <E>{
         return head;
     }
 
+    /** Remove Method */
+
+    public E removeFirst() {
+        return remove(0);
+    }
+
+    public E removeLast(){
+        return remove(size-1);
+    }
+
+    public E remove(int index){
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("remove failed, illegal index");
+        }
+        Pair<Node,E> res = remove(head,index);
+        size--;
+        head = res.getKey();
+        return res.getValue();
+    }
+
+    private Pair<Node,E> remove(Node head,int index){
+        if (index == 0){
+            return new Pair (head.next,head.e);
+        }
+        Pair<Node,E> res = remove(head.next,index - 1);
+        head.next = res.getKey();
+        return new Pair (head,res.getValue());
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -88,6 +119,45 @@ public class LinkedListR <E>{
 
     public static void main(String[] args) {
         //testAdd();
+        testRemove();
+    }
+
+    public static void testRemove(){
+        LinkedListR linkedListR = new LinkedListR();
+        for (Integer i = 0; i < 7; i++) {
+            linkedListR.addLast(i);
+        }
+        System.out.println("Origin recursive linked list");
+        System.out.println(linkedListR);
+
+        System.out.println("removeLast");
+        linkedListR.removeLast();
+        System.out.println(linkedListR);
+
+        System.out.println("removeLast");
+        linkedListR.removeLast();
+        System.out.println(linkedListR);
+
+        System.out.println("removeFirst");
+        linkedListR.removeFirst();
+        System.out.println(linkedListR);
+
+        System.out.println("remove element at index 2");
+        linkedListR.remove(2);
+        System.out.println(linkedListR);
+
+        /**
+         Origin recursive linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         removeLast
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> null tail
+         removeLast
+         front 0 -> 1 -> 2 -> 3 -> 4 -> null tail
+         removeFirst
+         front 1 -> 2 -> 3 -> 4 -> null tail
+         remove element at index 2
+         front 1 -> 2 -> 4 -> null tail
+         */
     }
 
     public static void testAdd(){
