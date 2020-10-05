@@ -139,6 +139,43 @@ public class LinkedList <E>{
         return rmE;
     }
 
+    /** Set Method */
+
+    /**
+     * set first
+     * */
+    public void setFirst(E e){
+        set(e,0);
+    }
+
+    /**
+     * set last
+     * */
+    public void setLast(E e){
+        set(e,size-1);
+    }
+
+    /**
+     * set element at index n
+     * */
+    public void set(E e, int index){
+        if (index < 0 || index > size -1 ){
+            throw new IllegalArgumentException("set failed, illegal index");
+        }
+        set(dummyHead.next,e,0,index);
+    }
+
+    /**
+     * private : set recursive method
+     * */
+    private void set(Node head, E e, int curIndex, int targetIndex){
+        if (curIndex == targetIndex){
+            head.e = e;
+            return;
+        }
+        set(head.next,e,curIndex + 1, targetIndex);
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -154,7 +191,40 @@ public class LinkedList <E>{
 
         //testAdd();
         //testRemove();
+        //testSet();
 
+    }
+
+    public static void testSet(){
+        LinkedList linkedList = new LinkedList();
+        for (int i = 0; i < 7; i++) {
+            linkedList.addLast(i);
+        }
+        System.out.println("origin linked list");
+        System.out.println(linkedList);
+
+        System.out.println("set first");
+        linkedList.setFirst(11);
+        System.out.println(linkedList);
+
+        System.out.println("set last");
+        linkedList.setLast(99);
+        System.out.println(linkedList);
+
+        System.out.println("set element at index 3");
+        linkedList.set(233,3);
+        System.out.println(linkedList);
+
+        /**
+         origin linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         set first
+         front 11 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         set last
+         front 11 -> 1 -> 2 -> 3 -> 4 -> 5 -> 99 -> null tail
+         set element at index 3
+         front 11 -> 1 -> 2 -> 233 -> 4 -> 5 -> 99 -> null tail
+         */
     }
 
     public static void testRemove(){
