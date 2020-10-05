@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/i_L203_Remove_Elements_In_Linked_List/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_Recursive_Linked_List/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/i_L203_Remove_Elements_In_Linked_List/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/i_L203_Remove_Elements_In_Linked_List/Sum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,20 @@
       <recent name="d_Query_And_Update_In_Linked_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sum">
+  <component name="RunManager" selected="Application.LinkedList">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_Recursive_Linked_List.LinkedList" />
+      <module name="07-Linked-List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j_Recursive_Linked_List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Solution_01" />
       <module name="07-Linked-List" />
@@ -80,19 +95,6 @@
     </configuration>
     <configuration name="Solution_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Solution_02" />
-      <module name="07-Linked-List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="i_L203_Remove_Elements_In_Linked_List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Solution_03" />
       <module name="07-Linked-List" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.Solution_04" />
         <item itemvalue="Application.Solution_02" />
         <item itemvalue="Application.Solution_01" />
-        <item itemvalue="Application.Solution_03" />
       </list>
     </recent_temporary>
   </component>
@@ -172,42 +174,46 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1601695752258" />
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601803498421">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601879212149">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601803498421" />
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1601812093819">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601879212149" />
+    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1601880414327">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601812093819" />
-    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1601812093818">
+    <state width="467" height="438" key="DebuggerActiveHint/0.23.1280.777@0.23.1280.777" timestamp="1601880414327" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1601880818057">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601812093818" />
-    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1601812093817">
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601880818057" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1601880818056">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601812093817" />
-    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1601812093818">
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601880818056" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1601880818056">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601812093818" />
-    <state width="1238" height="183" key="GridCell.Tab.1.bottom" timestamp="1601811745294">
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601880818056" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1601880818056">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601811745294" />
-    <state width="1238" height="183" key="GridCell.Tab.1.center" timestamp="1601811745293">
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601880818056" />
+    <state width="1238" height="250" key="GridCell.Tab.1.bottom" timestamp="1601880551065">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601811745293" />
-    <state width="1238" height="183" key="GridCell.Tab.1.left" timestamp="1601811745293">
+    <state width="1238" height="250" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601880551065" />
+    <state width="1238" height="250" key="GridCell.Tab.1.center" timestamp="1601880551064">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601811745293" />
-    <state width="1238" height="183" key="GridCell.Tab.1.right" timestamp="1601811745294">
+    <state width="1238" height="250" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601880551064" />
+    <state width="1238" height="250" key="GridCell.Tab.1.left" timestamp="1601880551064">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601811745294" />
+    <state width="1238" height="250" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601880551064" />
+    <state width="1238" height="250" key="GridCell.Tab.1.right" timestamp="1601880551065">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="250" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601880551065" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601810815516">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
