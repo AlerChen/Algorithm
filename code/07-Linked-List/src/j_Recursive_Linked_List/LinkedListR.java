@@ -169,6 +169,15 @@ public class LinkedListR <E>{
         return contains(head.next,e);
     }
 
+    /** Other Method */
+
+    public int getSize(){
+        return size;
+    }
+
+    public boolean isEmpty(){
+        return size == 0;
+    }
 
     @Override
     public String toString() {
