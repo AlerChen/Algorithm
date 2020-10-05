@@ -109,8 +109,16 @@ public class LinkedList <E>{
 
     public static void main(String[] args) {
 
-        LinkedList linkedList = new LinkedList();
+        //testAdd();
 
+    }
+
+
+    /**
+      * add method
+      */
+    public static void testAdd(){
+        LinkedList linkedList = new LinkedList();
         for (int i = 0; i < 7; i++) {
             if (i == 1 || i == 3 || i == 5){
                 System.out.println("addFirst");
@@ -141,8 +149,6 @@ public class LinkedList <E>{
          add index at 2
          front 5 -> 3 -> 99 -> 1 -> 0 -> 2 -> 4 -> null tail
          */
-
-
     }
 
 
