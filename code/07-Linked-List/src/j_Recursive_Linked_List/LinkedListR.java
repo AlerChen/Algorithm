@@ -104,6 +104,31 @@ public class LinkedListR <E>{
         return new Pair (head,res.getValue());
     }
 
+    /** Set Method */
+
+    public void setFirst(E e){
+        set(e,0);
+    }
+
+    public void setLast(E e){
+        set(e,size-1);
+    }
+
+    public void set(E e, int index){
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("set failed, illegal index");
+        }
+        set(head,e,index);
+    }
+
+    private void set(Node head, E e, int index){
+        if (index == 0){
+            head.e = e;
+            return;
+        }
+        set(head.next,e,index-1);
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -119,7 +144,40 @@ public class LinkedListR <E>{
 
     public static void main(String[] args) {
         //testAdd();
-        testRemove();
+        //testRemove();
+        testSet();
+    }
+
+    public static void testSet(){
+        LinkedListR linkedListR = new LinkedListR();
+        for (Integer i = 0; i < 7; i++) {
+            linkedListR.addLast(i);
+        }
+        System.out.println("Origin recursive linked list");
+        System.out.println(linkedListR);
+
+        System.out.println("setFirst");
+        linkedListR.setFirst(11);
+        System.out.println(linkedListR);
+
+        System.out.println("setLast");
+        linkedListR.setLast(99);
+        System.out.println(linkedListR);
+
+        System.out.println("set element at index 2");
+        linkedListR.set(233,2);
+        System.out.println(linkedListR);
+
+        /**
+         Origin recursive linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         setFirst
+         front 11 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         setLast
+         front 11 -> 1 -> 2 -> 3 -> 4 -> 5 -> 99 -> null tail
+         set element at index 2
+         front 11 -> 1 -> 233 -> 3 -> 4 -> 5 -> 99 -> null tail
+         */
     }
 
     public static void testRemove(){
