@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/j_Recursive_Linked_List/LinkedListR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/j_Recursive_Linked_List/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/j_Recursive_Linked_List/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/j_Recursive_Linked_List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/j_Recursive_Linked_List/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="d_Query_And_Update_In_Linked_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.LinkedListR">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="j_Recursive_Linked_List.LinkedList" />
       <module name="07-Linked-List" />
@@ -80,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="i_L203_Remove_Elements_In_Linked_List.Solution_01" />
+    <configuration name="LinkedListR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_Recursive_Linked_List.LinkedListR" />
       <module name="07-Linked-List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="i_L203_Remove_Elements_In_Linked_List.*" />
+          <option name="PATTERN" value="j_Recursive_Linked_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListR" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.Solution_04" />
         <item itemvalue="Application.Solution_02" />
-        <item itemvalue="Application.Solution_01" />
       </list>
     </recent_temporary>
   </component>
@@ -174,10 +173,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1601695752258" />
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601879212149">
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1601888021388">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601879212149" />
+    <state x="386" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1601888021388" />
     <state width="467" height="438" key="DebuggerActiveHint" timestamp="1601880414327">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
