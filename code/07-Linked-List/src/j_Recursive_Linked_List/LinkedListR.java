@@ -129,6 +129,30 @@ public class LinkedListR <E>{
         set(head.next,e,index-1);
     }
 
+    /** Get Method */
+
+    public E getFirst(){
+        return get(0);
+    }
+
+    public E getLast(){
+        return get(size-1);
+    }
+
+    public E get(int index){
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("get element failed, illegal index");
+        }
+        return get(head,index);
+    }
+
+    private E get(Node head, int index){
+        if (index == 0){
+            return (E) head.e;
+        }
+        return (E) get(head.next,index-1);
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -145,10 +169,42 @@ public class LinkedListR <E>{
     public static void main(String[] args) {
         //testAdd();
         //testRemove();
-        testSet();
+        //testSet();
+        //testGet();
     }
 
-    public static void testSet(){
+    public static void testGet() {
+        LinkedListR<Integer> linkedListR = new LinkedListR();
+        for (Integer i = 0; i < 6; i++) {
+            linkedListR.addLast(i);
+        }
+        System.out.println("Origin recursive linked list");
+        System.out.println(linkedListR);
+
+        System.out.println("getFirst");
+        Integer firstE = linkedListR.getFirst();
+        System.out.println("The first element is " + firstE);
+
+        System.out.println("getLast");
+        Integer lastE = linkedListR.getLast();
+        System.out.println("The last element is " + lastE);
+
+        System.out.println("get element at index 2");
+        Integer thirdE = linkedListR.get(2);
+        System.out.println("The third element is " + thirdE);
+        /**
+         Origin recursive linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> null tail
+         getFirst
+         The first element is 0
+         getLast
+         The last element is 5
+         get element at index 2
+         The third element is 2
+         */
+    }
+
+        public static void testSet(){
         LinkedListR linkedListR = new LinkedListR();
         for (Integer i = 0; i < 7; i++) {
             linkedListR.addLast(i);
