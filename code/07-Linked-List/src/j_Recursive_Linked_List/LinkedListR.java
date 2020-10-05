@@ -39,6 +39,12 @@ public class LinkedListR <E>{
     private Node head;
     private int size;
 
+    /** Life Circle */
+    public LinkedListR(){
+        head = null;
+        size = 0;
+    }
+
     /** Public Method */
 
     /** Add Method */
@@ -48,19 +54,20 @@ public class LinkedListR <E>{
     }
 
     public void addLast(E e){
-        add(e,size-1);
+        add(e,size);
     }
 
     public void add(E e, int index){
-        if (index < 0 ){
+        if (index < 0 || index > size){
             throw new IllegalArgumentException("add failed, illegal index");
         }
         head = add(head,e,index);
+        size++;
     }
 
     private Node add(Node head, E e, int index){
         if (index == 0){
-            return new Node(e,head.next);
+            return new Node(e,head);
         }
         head.next = add(head.next,e,index-1);
         return head;
@@ -84,26 +91,26 @@ public class LinkedListR <E>{
     }
 
     public static void testAdd(){
-        LinkedList linkedList = new LinkedList();
-        System.out.println(linkedList);
+        LinkedListR linkedListR = new LinkedListR();
+        System.out.println(linkedListR);
         System.out.println("addLast");
-        linkedList.addLast(1);
-        System.out.println(linkedList);
+        linkedListR.addLast(1);
+        System.out.println(linkedListR);
         System.out.println("addLast");
-        linkedList.addLast(2);
-        System.out.println(linkedList);
+        linkedListR.addLast(2);
+        System.out.println(linkedListR);
         System.out.println("addLast");
-        linkedList.addLast(3);
-        System.out.println(linkedList);
+        linkedListR.addLast(3);
+        System.out.println(linkedListR);
         System.out.println("addLast");
-        linkedList.addLast(4);
-        System.out.println(linkedList);
+        linkedListR.addLast(4);
+        System.out.println(linkedListR);
         System.out.println("addFirst");
-        linkedList.addFirst(-1);
-        System.out.println(linkedList);
+        linkedListR.addFirst(-1);
+        System.out.println(linkedListR);
         System.out.println("add element at index 2");
-        linkedList.add(22,2);
-        System.out.println(linkedList);
+        linkedListR.add(22,2);
+        System.out.println(linkedListR);
 
         /**
          front null tail
