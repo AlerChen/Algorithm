@@ -153,6 +153,23 @@ public class LinkedListR <E>{
         return (E) get(head.next,index-1);
     }
 
+    /** Contains Method */
+
+    public boolean contains(E e){
+        return contains(head,e);
+    }
+
+    private boolean contains(Node head, E e){
+        if (head == null){
+            return false;
+        }
+        if (head.e.equals(e)){
+            return true;
+        }
+        return contains(head.next,e);
+    }
+
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -171,6 +188,33 @@ public class LinkedListR <E>{
         //testRemove();
         //testSet();
         //testGet();
+        testContains();
+    }
+
+    public static void testContains() {
+        LinkedListR<Integer> linkedListR = new LinkedListR();
+        for (Integer i = 0; i < 6; i++) {
+            linkedListR.addLast(i);
+        }
+        System.out.println("Origin recursive linked list");
+        System.out.println(linkedListR);
+
+        System.out.println("contains");
+        boolean isContains9 = linkedListR.contains(9);
+        System.out.println("linkedListR is contains 9 ? -> " + isContains9);
+
+        System.out.println("contains");
+        boolean isContains3 = linkedListR.contains(3);
+        System.out.println("linkedListR is contains 3 ? -> " + isContains3);
+
+        /**
+         Origin recursive linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> null tail
+         contains
+         linkedListR is contains 9 ? -> false
+         contains
+         linkedListR is contains 3 ? -> true
+         */
     }
 
     public static void testGet() {
