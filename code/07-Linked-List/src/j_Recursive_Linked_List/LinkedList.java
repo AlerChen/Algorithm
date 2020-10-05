@@ -59,6 +59,8 @@ public class LinkedList <E>{
 
     /** Public Method */
 
+    /** Add Method */
+
     /**
      * add first
      * */
@@ -96,6 +98,47 @@ public class LinkedList <E>{
         return head;
     }
 
+    /** Remove Method */
+
+    /**
+     * remove first
+     * */
+    public E removeFirst(){
+        return remove(0);
+    }
+
+    /**
+     * remove last
+     * */
+    public E removeLast(){
+        return remove(size-1);
+    }
+
+    /**
+     * remove element at index n
+     * */
+    public E remove(int index){
+        if (index < 0 || index > size - 1){
+            throw new IllegalArgumentException("remove failed, illegal index");
+        }
+        E rmE = remove(dummyHead,-1,index);
+        size--;
+        return rmE;
+    }
+
+    /**
+     * private : remove recursive method
+     * */
+    private E remove(Node head,int curIndex,int targetIndex){
+        if (curIndex + 1 == targetIndex){
+            E rmE = (E) head.next.e;
+            head.next = head.next.next;
+            return rmE;
+        }
+        E rmE = (E) remove(head.next,curIndex + 1,targetIndex);
+        return rmE;
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -110,9 +153,49 @@ public class LinkedList <E>{
     public static void main(String[] args) {
 
         //testAdd();
+        //testRemove();
 
     }
 
+    public static void testRemove(){
+
+        LinkedList linkedList = new LinkedList();
+        for (int i = 0; i < 7; i++) {
+            linkedList.addLast(i);
+        }
+        System.out.println("origin linked list");
+        System.out.println(linkedList);
+
+        System.out.println("removeFirst");
+        linkedList.removeFirst();
+        System.out.println(linkedList);
+
+        System.out.println("removeLast");
+        linkedList.removeLast();
+        System.out.println(linkedList);
+
+        System.out.println("remove element at index 2");
+        linkedList.remove(2);
+        System.out.println(linkedList);
+
+        System.out.println("removeLast");
+        linkedList.removeLast();
+        System.out.println(linkedList);
+
+        /**
+         origin linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         removeFirst
+         front 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         removeLast
+         front 1 -> 2 -> 3 -> 4 -> 5 -> null tail
+         remove element at index 2
+         front 1 -> 2 -> 4 -> 5 -> null tail
+         removeLast
+         front 1 -> 2 -> 4 -> null tail
+         */
+
+    }
 
     /**
       * add method
