@@ -176,6 +176,44 @@ public class LinkedList <E>{
         set(head.next,e,curIndex + 1, targetIndex);
     }
 
+    /** Get Method */
+
+    /**
+     * get first
+     * */
+    public E getFirst(){
+        return get(0);
+    }
+
+    /**
+     * get last
+     * */
+    public E getLast(){
+        return get(size-1);
+    }
+
+    /**
+     * get element at index n
+     * */
+    public E get(int index){
+        if (index < 0 || index > size -1){
+            throw new IllegalArgumentException("get element failed, illegal index");
+        }
+        E getE = (E) get(dummyHead.next,0,index);
+        return getE;
+    }
+
+    /**
+     * private : get recursive method
+     * */
+    private E get(Node head, int curIndex, int targetIndex){
+        if (curIndex == targetIndex){
+            return (E) head.e;
+        }
+        E getE = (E) get(head.next,curIndex + 1, targetIndex);
+        return getE;
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -192,7 +230,39 @@ public class LinkedList <E>{
         //testAdd();
         //testRemove();
         //testSet();
+        //testGet();
+    }
 
+    public static void testGet(){
+        LinkedList<Integer> linkedList = new LinkedList();
+        for (Integer i = 0; i < 7; i++) {
+            linkedList.addLast(i);
+        }
+        System.out.println("origin linked list");
+        System.out.println(linkedList);
+
+        System.out.println("get first");
+        Integer firstE = linkedList.getFirst();
+        System.out.println("The first element is " + firstE);
+
+        System.out.println("get last");
+        Integer lastE = linkedList.getLast();
+        System.out.println("The last element is " + lastE);
+
+        System.out.println("get element at index 2");
+        Integer thirdE = linkedList.get(2);
+        System.out.println("The third element is " + thirdE);
+
+        /**
+         origin linked list
+         front 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null tail
+         get first
+         The first element is 0
+         get last
+         The last element is 6
+         get element at index 2
+         The third element is 2
+         */
     }
 
     public static void testSet(){
