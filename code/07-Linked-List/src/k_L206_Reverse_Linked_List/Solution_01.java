@@ -54,21 +54,37 @@ public class Solution_01 {
         return pre;
     }
 
+    //    /**
+    //     * Reverse Linked List Using Recursive
+    //     * 解题失败
+    //     * */
+    //    public ListNode reverseLinkedListUsingRecursive(ListNode head){
+    //        if (head.next == null){
+    //            return head;
+    //        }
+    //        ListNode preNode = reverseLinkedListUsingRecursive(head.next);
+    //        head.next = null;
+    //        preNode.next = head;
+    //        return head;
+    //    }
+
     /**
      * Reverse Linked List Using Recursive
+     * 老师解法: 先返回头结点, 后翻转
      * */
     public ListNode reverseLinkedListUsingRecursive(ListNode head){
-        if (head.next == null){
+        if (head == null || head.next == null){
             return head;
         }
         ListNode preNode = reverseLinkedListUsingRecursive(head.next);
+        head.next.next = head;
         head.next = null;
-        preNode.next = head;
-        return head;
+        return preNode;
     }
 
     /**
      * Reverse Linked List By Recursive
+     * 个人解法: 先翻转,后返回新头结点
      * */
     public ListNode reverseLinkedListByRecursive(ListNode head){
         if (head == null){
@@ -86,8 +102,11 @@ public class Solution_01 {
         /** 翻转链表 */
         testReverseLinkedList();
         System.out.println("------------------------------");
-        /** 翻转链表_递归 */
+        /** 翻转链表_递归_先翻转,再返回新头结点 */
         testReverseLinkedListByRecursive();
+        System.out.println("------------------------------");
+        /** 翻转链表_递归_老师解法_先返回头结点,再翻转 */
+        testReverseLinkedListUsingRecursive();
 
         /**
          Origin Linked List
@@ -98,6 +117,11 @@ public class Solution_01 {
          Origin Linked List
          1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> null
          Reverse Linked List By Recursive
+         7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> null
+         ------------------------------
+         Origin Linked List
+         1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> null
+         Reverse Linked List Using Recursive
          7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> null
          */
     }
@@ -136,6 +160,25 @@ public class Solution_01 {
          Origin Linked List
          1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> null
          Reverse Linked List By Recursive
+         7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> null
+         */
+    }
+
+    public static void testReverseLinkedListUsingRecursive(){
+        int[] arr = {1,2,3,4,5,6,7};
+        ListNode head = new ListNode(arr);
+        System.out.println("Origin Linked List");
+        System.out.println(head);
+
+        System.out.println("Reverse Linked List Using Recursive");
+        Solution_01 solution_01 = new Solution_01();
+        ListNode reverseHead = solution_01.reverseLinkedListUsingRecursive(head);
+        System.out.println(reverseHead);
+
+        /**
+         Origin Linked List
+         1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> null
+         Reverse Linked List Using Recursive
          7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> null
          */
     }
