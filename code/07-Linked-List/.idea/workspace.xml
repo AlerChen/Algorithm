@@ -20,9 +20,532 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e24569f-c73a-4d22-9890-967d9d90922a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/03-Merge/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/04-MergeSort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/04-MergeSort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/04-MergeSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/04-MergeSort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/04-MergeSort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/07-MergeSort-Track/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/07-MergeSort-Track/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/07-MergeSort-Track/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/07-MergeSort-Track/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/07-MergeSort-Track/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/08-MergeSort-Complexity/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/08-MergeSort-Complexity/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/08-MergeSort-Complexity/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/08-MergeSort-Complexity/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/08-MergeSort-Complexity/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/09-MergeSort/Chapter-09.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/02-MergeSort-Optimized-by-InsertionSort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/02-MergeSort-Optimized-by-InsertionSort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/02-MergeSort-Optimized-by-InsertionSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/02-MergeSort-Optimized-by-InsertionSort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/02-MergeSort-Optimized-by-InsertionSort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/03-MergeSort-Advanced-Optimization/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/03-MergeSort-Advanced-Optimization/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/03-MergeSort-Advanced-Optimization/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/03-MergeSort-Advanced-Optimization/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/03-MergeSort-Advanced-Optimization/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/05-MergeSort-Bottom-Up/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/05-MergeSort-Bottom-Up/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/05-MergeSort-Bottom-Up/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/05-MergeSort-Bottom-Up/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/05-MergeSort-Bottom-Up/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/07-MergeSort-Bottom-Up-Optimized-by-InsertionSort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/07-MergeSort-Bottom-Up-Optimized-by-InsertionSort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/07-MergeSort-Bottom-Up-Optimized-by-InsertionSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/07-MergeSort-Bottom-Up-Optimized-by-InsertionSort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/07-MergeSort-Bottom-Up-Optimized-by-InsertionSort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/08-Reverse-Pairs/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/09-Solving-Reverse-Pairs-Problem-by-MergeSort/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/09-Solving-Reverse-Pairs-Problem-by-MergeSort/src/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/Chapter-10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/03-QuickSort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/05-QuickSort-Optimized-by-Insertion-Sort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/07-QuickSort-Optimized-by-Random/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/09-QuickSort-Optimized/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/10-Generate-Special-Array/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/11-QuickSort/Chapter-11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/01-Problem-in-All-Same-Array/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/03-QuickSort-2-Ways/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/06-QuickSort-3-Ways/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/08-Sort-Colors/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/10-Select-K/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/10-Select-K/src/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/10-Select-K/src/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/10-Select-K/src/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/12-More-about-QuickSort/Chapter-12.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/02-Recursive-Binary-Search/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/02-Recursive-Binary-Search/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/03-Binary-Search/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/03-Binary-Search/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/05-Select-K-Non-Recursive/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/06-Another-Binary-Search/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/08-Another-Select-K/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/08-Another-Select-K/src/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/08-Another-Select-K/src/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/09-Another-MergeSort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/09-Another-MergeSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/09-Another-MergeSort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/13-Binary-Search/Chapter-13.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/02-Upper/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/03-Ceil/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/05-Lower-Ceil/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/07-Lower/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/09-Lower-Floor-and-Upper-Floor/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/11-Another-Binary-Search/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14-More-about-Binary-Search/Chapter-14.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14x-Binary-Search/02-LC875/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/14x-Binary-Search/04-LC1011/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/02-Binary-Search-Tree-Basics/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/03-Add-Elements-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/03-Add-Elements-in-BST/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/06-Add-Elements-in-BST-Nonrecursive/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/06-Add-Elements-in-BST-Nonrecursive/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/07-Search-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/07-Search-in-BST/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/08-PreOrder-Traverse-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/08-PreOrder-Traverse-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/09-InOrder-and-PostOrder-Traverse-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/09-InOrder-and-PostOrder-Traverse-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/11-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/11-Non-Recursion-Preorder-Traverse-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/11-Non-Recursion-Preorder-Traverse-in-BST/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/12-Level-Traverse-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/12-Level-Traverse-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/13-Remove-Min-and-Max-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/13-Remove-Min-and-Max-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/14-Remove-Elements-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/14-Remove-Elements-in-BST/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/15-Binary-Search-Tree/Chapter-15.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/01-Set-Basics-and-BSTSet/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/LinkedListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/02-LinkedListSet/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/LinkedListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/03-Time-Complexity-of-Set/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/src/BSTSetSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/src/LinkedListSetSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/05-Map-Basics/src/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/06-LinkedListMap/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/06-LinkedListMap/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/06-LinkedListMap/src/LinkedListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/06-LinkedListMap/src/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/06-LinkedListMap/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/07-BSTMap/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/07-BSTMap/src/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/07-BSTMap/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/07-BSTMap/src/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/07-BSTMap/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/src/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/src/LinkedListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/08-More-about-Map/src/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/BSTMapSolution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/BSTSetSolution349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/LinkedListMapSolution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/LinkedListSetSolution349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/Solution349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/Solution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/16-Set-and-Map/Chapter-16.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/02-Heap-Basics/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/02-Heap-Basics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/02-Heap-Basics/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/03-Add-and-Sift-Up-in-Heap/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/03-Add-and-Sift-Up-in-Heap/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/03-Add-and-Sift-Up-in-Heap/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/04-Extract-and-Sift-Down-in-Heap/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/04-Extract-and-Sift-Down-in-Heap/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/04-Extract-and-Sift-Down-in-Heap/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/04-Extract-and-Sift-Down-in-Heap/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/05-Heap-Sort-Basics/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/06-Replace-in-Heap/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/06-Replace-in-Heap/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/06-Replace-in-Heap/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/07-Heapify-in-Heap/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/07-Heapify-in-Heap/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/07-Heapify-in-Heap/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/07-Heapify-in-Heap/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/08-Heap-Sort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/10-Min-Heap/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/10-Min-Heap/src/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/17-Heap/Chapter-17.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/01-Priority-Queue/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/02-TopK/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/04-LC215/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/04-LC215/src/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/04-LC215/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/05-Priority-Queue-in-Java/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/05-Priority-Queue-in-Java/src/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/18-Priority-Queue/Chapter-18.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/02-Bubble-Sort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/03-Bubble-Sort-Optimized/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/04-Bubble-Sort-Optimized2/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/06-Another-Bubble-Sort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/19-Bubble-Sort/Chapter-19.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/03-Shell-Sort/src/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/04-Shell-Sort-Performance/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/05-Another-Shell-Sort/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/06-H-Sequence/src/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/20-Shell-Sort/Chapter-20.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/21-Comparison-Based-Sort/Chapter-21.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/02-Segment-Tree-Basics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/02-Segment-Tree-Basics/src/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/03-Building-Segment-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/03-Building-Segment-Tree/src/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/03-Building-Segment-Tree/src/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/04-Query-in-Segment-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/04-Query-in-Segment-Tree/src/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/04-Query-in-Segment-Tree/src/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/NumArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/NumArray3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/NumArrayComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/NumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/NumArrayComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/22-Segment-Tree/Chapter-22.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/02-Trie-Basics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/02-Trie-Basics/src/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/03-Searching-in-Trie/src/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/04-Prefix-in-Trie/src/Trie208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/05-Trie-and-Pattern-Match/src/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/06-Trie-and-Map/src/MapSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/Trie2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/08-Trie-Using-HashMap-and-Array/src/Trie3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/23-Trie/Chapter-23.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/01-What-is-UnionFind/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/02-Quick-Find/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/02-Quick-Find/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/02-Quick-Find/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/03-Quick-Union/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/03-Quick-Union/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/03-Quick-Union/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/03-Quick-Union/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/03-Quick-Union/src/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/04-Optimized-by-Size/src/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/05-Optimized-by-Rank/src/UnionFind4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UnionFind4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/06-Path-Compression/src/UnionFind5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/07-More-about-Union-Find/src/UnionFind6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/24-Union-Find/Chapter-24.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/02-Calculating-Balance-Factor/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/02-Calculating-Balance-Factor/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/02-Calculating-Balance-Factor/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/02-Calculating-Balance-Factor/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/02-Calculating-Balance-Factor/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/04-Rotation-Operations/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/04-Rotation-Operations/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/04-Rotation-Operations/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/04-Rotation-Operations/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/04-Rotation-Operations/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/06-LR-and-RL/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/Solution349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/Solution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/AVLMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/AVLSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/LinkedListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/LinkedListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/Solution349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/Solution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/TestMapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/TestSetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/25-AVL-Tree/Chapter-25.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/26-Red-Black-Tree/Chapter-26.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/01-Hash-Table-Basics/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/03-Hash-Function-in-Java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/03-Hash-Function-in-Java/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/05-Hash-Table-Implementation/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/06-Resizing-in-Hash-Table/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../source/27-Hash-Table/Chapter-27.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07-Linked-List/k_L206_Reverse_Linked_List/Solution_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07-Linked-List/k_L206_Reverse_Linked_List/Solution_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/k_L206_Reverse_Linked_List/Solution_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/k_L206_Reverse_Linked_List/Solution_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,38 +705,38 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="467" height="438" key="DebuggerActiveHint/0.23.1280.777@0.23.1280.777" timestamp="1601880414327" />
-    <state width="1238" height="329" key="GridCell.Tab.0.bottom" timestamp="1601957194337">
+    <state width="1238" height="250" key="GridCell.Tab.0.bottom" timestamp="1602678584559">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="329" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601957194337" />
-    <state width="1238" height="329" key="GridCell.Tab.0.center" timestamp="1601957194336">
+    <state width="1238" height="250" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1602678584559" />
+    <state width="1238" height="250" key="GridCell.Tab.0.center" timestamp="1602678584558">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="329" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601957194336" />
-    <state width="1238" height="329" key="GridCell.Tab.0.left" timestamp="1601957194336">
+    <state width="1238" height="250" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1602678584558" />
+    <state width="1238" height="250" key="GridCell.Tab.0.left" timestamp="1602678584558">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="329" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601957194336" />
-    <state width="1238" height="329" key="GridCell.Tab.0.right" timestamp="1601957194337">
+    <state width="1238" height="250" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1602678584558" />
+    <state width="1238" height="250" key="GridCell.Tab.0.right" timestamp="1602678584559">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="329" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601957194337" />
-    <state width="1238" height="250" key="GridCell.Tab.1.bottom" timestamp="1601956709529">
+    <state width="1238" height="250" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1602678584559" />
+    <state width="1238" height="250" key="GridCell.Tab.1.bottom" timestamp="1602678584560">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="250" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601956709529" />
-    <state width="1238" height="250" key="GridCell.Tab.1.center" timestamp="1601956709526">
+    <state width="1238" height="250" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1602678584560" />
+    <state width="1238" height="250" key="GridCell.Tab.1.center" timestamp="1602678584560">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="250" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601956709526" />
-    <state width="1238" height="250" key="GridCell.Tab.1.left" timestamp="1601956709525">
+    <state width="1238" height="250" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1602678584560" />
+    <state width="1238" height="250" key="GridCell.Tab.1.left" timestamp="1602678584560">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="250" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601956709525" />
-    <state width="1238" height="250" key="GridCell.Tab.1.right" timestamp="1601956709528">
+    <state width="1238" height="250" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1602678584560" />
+    <state width="1238" height="250" key="GridCell.Tab.1.right" timestamp="1602678584560">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="250" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601956709528" />
+    <state width="1238" height="250" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1602678584560" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601810815516">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
