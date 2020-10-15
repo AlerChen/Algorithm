@@ -19,18 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/07-Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/07-Linked-List/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-MergeSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a_Merge/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Linked-List/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1fCykrDWt41uQ9IHySnbihyaJje" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iv2ymA2rjvZqWfCJ0dUq4ER6hP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,38 +57,21 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration name="RunTimesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.RunTimesTest" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.RunTimesTest" />
-      </list>
-    </recent_temporary>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="baaf80b9-738f-4fc2-8a74-962a47c345ab" name="Default Changelist" comment="" />
-      <created>1595736514912</created>
+      <changelist id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="" />
+      <created>1602774001608</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595736514912</updated>
+      <updated>1602774001608</updated>
     </task>
     <servers />
   </component>
@@ -85,16 +85,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="315" width="522" height="260" key="#Notifications" timestamp="1595736724788">
+    <state x="128" y="23" key="#Project_Structure" timestamp="1602774010747">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="399" y="315" width="522" height="260" key="#Notifications/0.23.1280.777@0.23.1280.777" timestamp="1595736724788" />
-    <state x="67" y="23" key="new project wizard" timestamp="1602773811677">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="67" y="23" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1602773811677" />
+    <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1602774010747" />
   </component>
 </project>
