@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-Merge/03-Merge.iml" filepath="$PROJECT_DIR$/03-Merge/03-Merge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-MergeSort/04-MergeSort.iml" filepath="$PROJECT_DIR$/04-MergeSort/04-MergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-MergeSort-Track/07-MergeSort-Track.iml" filepath="$PROJECT_DIR$/07-MergeSort-Track/07-MergeSort-Track.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-MergeSort-Complexity/08-MergeSort-Complexity.iml" filepath="$PROJECT_DIR$/08-MergeSort-Complexity/08-MergeSort-Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/09-MergeSort.iml" filepath="$PROJECT_DIR$/.idea/09-MergeSort.iml" />
+    </modules>
+  </component>
+</project>

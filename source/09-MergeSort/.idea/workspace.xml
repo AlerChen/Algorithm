@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="116565b4-c4ca-4f87-b5f8-c097bd8209e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/SelectionSort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/SelectionSort_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../code/09-MergeSort/src/d_TimeComplexity/SortingHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code/09-MergeSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code/09-MergeSort/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1j7XukAC5zYqrQ5oE2ivw42wVQu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="04-MergeSort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MergeSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="116565b4-c4ca-4f87-b5f8-c097bd8209e1" name="Default Changelist" comment="" />
+      <created>1603156328090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603156328090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1490" height="338" key="GridCell.Tab.0.bottom" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state width="1490" height="338" key="GridCell.Tab.0.center" timestamp="1603845684004">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684004" />
+    <state width="1490" height="338" key="GridCell.Tab.0.left" timestamp="1603845684004">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684004" />
+    <state width="1490" height="338" key="GridCell.Tab.0.right" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state width="1490" height="338" key="GridCell.Tab.1.bottom" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.1.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state width="1490" height="338" key="GridCell.Tab.1.center" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.1.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state width="1490" height="338" key="GridCell.Tab.1.left" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.1.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state width="1490" height="338" key="GridCell.Tab.1.right" timestamp="1603845684005">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state width="1490" height="338" key="GridCell.Tab.1.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603845684005" />
+    <state x="455" y="132" key="SettingsEditor" timestamp="1603845751734">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="455" y="132" key="SettingsEditor/0.23.1920.1011@0.23.1920.1011" timestamp="1603845751734" />
+  </component>
+</project>
