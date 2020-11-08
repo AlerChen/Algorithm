@@ -108,6 +108,7 @@ public class MergeSort<E>{
              sortName: MergeSort2, n = 1000000, time = 0.110024 s
 
              数据是完全有序的情况下,归并排序优化十分明显(有序数据不再排序).
+             归并排序时间复杂度进化到 O(n) 级别.
          */
     }
 }
