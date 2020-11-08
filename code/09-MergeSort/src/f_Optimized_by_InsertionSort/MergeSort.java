@@ -50,7 +50,7 @@ public class MergeSort<E>{
 
     /**  Sort2  */
     public static <E extends Comparable<E>> void sort2(E[] arr){
-        sort(arr,0,arr.length-1);
+        sort2(arr,0,arr.length-1);
     }
 
     public static <E extends Comparable<E>> void sort2(E[]arr, int left, int right){
@@ -101,8 +101,8 @@ public class MergeSort<E>{
         SortingHelper.sortTest("MergeSort",arr);
         SortingHelper.sortTest("MergeSort2",arr2);
         /**
-         sortName: MergeSort, n = 1000000, time = 0.831836 s
-         sortName: MergeSort2, n = 1000000, time = 0.710366 s
+         sortName: MergeSort, n = 1000000, time = 0.710030 s
+         sortName: MergeSort2, n = 1000000, time = 0.656321 s
          小规模数据使用插入排序优化
          */
     }

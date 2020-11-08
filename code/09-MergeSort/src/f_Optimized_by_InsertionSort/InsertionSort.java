@@ -29,14 +29,13 @@ public class InsertionSort {
     * 插入排序_归并排序优化_排序数组中的部分范围
     * */
     public static <E extends  Comparable<E>> void sort(E[] arr, int l, int r){
-        for (int i = l; i < r; i++) {
-            for (int j = i; j - 1 >= l ; j--) {
-                if (arr[j - 1].compareTo(arr[j]) > 0){
-                    swap(arr,j-1,j);
-                }else {
-                    break;
-                }
+        for (int i = l; i <= r; i++) {
+            E t = arr[i];
+            int j;
+            for (j = i; j - 1 >= l && t.compareTo(arr[j - 1]) < 0; j--) {
+                arr[j] = arr[j - 1];
             }
+            arr[j] = t;
         }
     }
 
