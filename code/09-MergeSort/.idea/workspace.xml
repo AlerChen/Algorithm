@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="" />
+    <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/SelectionSort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/SelectionSort_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort/SortingHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/e_Basic_Optimization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,13 +67,14 @@
       <recent name="c_TestCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort" />
       <recent name="$PROJECT_DIR$/src/e_Basic_Optimization" />
       <recent name="$PROJECT_DIR$/src/e_Basic-Optimization" />
       <recent name="$PROJECT_DIR$/src/d_TimeComplexity" />
       <recent name="$PROJECT_DIR$/src/c_TestCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort (2)">
+  <component name="RunManager" selected="Application.MergeSort (3)">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c_TestCode.InsertionSort" />
       <module name="09-MergeSort" />
@@ -105,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f_Optimized_by_InsertionSort.MergeSort" />
+      <module name="09-MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="f_Optimized_by_InsertionSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c_TestCode.MergeSort" />
       <module name="09-MergeSort" />
@@ -120,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort (3)" />
         <item itemvalue="Application.MergeSort (2)" />
         <item itemvalue="Application.MergeSort (1)" />
         <item itemvalue="Application.MergeSort" />
