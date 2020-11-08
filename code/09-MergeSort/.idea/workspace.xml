@@ -75,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/d_TimeComplexity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort (4)">
+  <component name="RunManager" selected="Application.MergeSort (2)">
     <configuration name="MergeSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="d_TimeComplexity.MergeSort" />
       <module name="09-MergeSort" />
@@ -143,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort (2)" />
         <item itemvalue="Application.MergeSort (4)" />
         <item itemvalue="Application.MergeSort (3)" />
-        <item itemvalue="Application.MergeSort (2)" />
         <item itemvalue="Application.MergeSort (1)" />
         <item itemvalue="Application.MergeSort" />
       </list>

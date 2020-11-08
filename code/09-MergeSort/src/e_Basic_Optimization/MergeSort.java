@@ -46,7 +46,7 @@ public class MergeSort<E>{
 
     /**  Sort2  */
     public static <E extends Comparable<E>> void sort2(E[] arr){
-        sort(arr,0,arr.length-1);
+        sort2(arr,0,arr.length-1);
     }
 
     public static <E extends Comparable<E>> void sort2(E[]arr, int left, int right){
@@ -100,12 +100,12 @@ public class MergeSort<E>{
 
         /**
              Random Array :
-             sortName: MergeSort, n = 1000000, time = 0.729314 s
-             sortName: MergeSort2, n = 1000000, time = 0.537178 s
+             sortName: MergeSort, n = 1000000, time = 0.912706 s
+             sortName: MergeSort2, n = 1000000, time = 0.754869 s
 
              Ordered Array :
-             sortName: MergeSort, n = 1000000, time = 0.257509 s
-             sortName: MergeSort2, n = 1000000, time = 0.110024 s
+             sortName: MergeSort, n = 1000000, time = 0.164301 s
+             sortName: MergeSort2, n = 1000000, time = 0.009706 s
 
              数据是完全有序的情况下,归并排序优化十分明显(有序数据不再排序).
              归并排序时间复杂度进化到 O(n) 级别.
