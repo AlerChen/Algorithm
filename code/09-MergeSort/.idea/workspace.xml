@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/ArrayGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/SelectionSort_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/SelectionSort_Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/SortingHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../source/10-More-about-MergeSort/01-MergeSort-Basic-Optimization/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/09-MergeSort/e_Basic_Optimization/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/09-MergeSort/e_Basic_Optimization/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_Basic_Optimization/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e_Basic_Optimization/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,21 +160,25 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1602774010747" />
-    <state width="1490" height="143" key="GridCell.Tab.0.bottom" timestamp="1603847456181">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom" timestamp="1604823133863">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1604823133863" />
     <state width="1490" height="143" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456181" />
-    <state width="1490" height="143" key="GridCell.Tab.0.center" timestamp="1603847456180">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center" timestamp="1604823133862">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1604823133862" />
     <state width="1490" height="143" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1490" height="143" key="GridCell.Tab.0.left" timestamp="1603847456180">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left" timestamp="1604823133862">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1604823133862" />
     <state width="1490" height="143" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1490" height="143" key="GridCell.Tab.0.right" timestamp="1603847456180">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right" timestamp="1604823133863">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1604823133863" />
     <state width="1490" height="143" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
     <state width="1490" height="167" key="GridCell.Tab.1.bottom" timestamp="1603847151010">
       <screen x="0" y="23" width="1920" height="1011" />

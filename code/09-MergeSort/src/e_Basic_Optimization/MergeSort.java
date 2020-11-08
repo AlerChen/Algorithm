@@ -86,13 +86,28 @@ public class MergeSort<E>{
 
     public static void main(String[] args) {
         int num = 1000000;
+        System.out.println("Random Array : ");
         Integer[] arr = ArrayGenerator.generateRandomArray(num,num);
         Integer[] arr2 = Arrays.copyOf(arr,arr.length);
         SortingHelper.sortTest("MergeSort",arr);
-        SortingHelper.sortTest("MergeSort2",arr);
+        SortingHelper.sortTest("MergeSort2",arr2);
+
+        System.out.println("\nOrdered Array : ");
+        Integer[] arr3 = ArrayGenerator.generateOrderArray(num);
+        Integer[] arr4 = Arrays.copyOf(arr3,arr3.length);
+        SortingHelper.sortTest("MergeSort",arr3);
+        SortingHelper.sortTest("MergeSort2",arr4);
+
         /**
-            sortName: MergeSort, n = 1000000, time = 0.769320 s
-            sortName: MergeSort2, n = 1000000, time = 0.592250 s
+             Random Array :
+             sortName: MergeSort, n = 1000000, time = 0.729314 s
+             sortName: MergeSort2, n = 1000000, time = 0.537178 s
+
+             Ordered Array :
+             sortName: MergeSort, n = 1000000, time = 0.257509 s
+             sortName: MergeSort2, n = 1000000, time = 0.110024 s
+
+             数据是完全有序的情况下,归并排序优化十分明显(有序数据不再排序).
          */
     }
 }
