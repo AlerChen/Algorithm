@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/ArrayGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/SelectionSort_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/SelectionSort_Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h_Bottom_Up/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SortingHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/h_Bottom_Up" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -68,27 +68,14 @@
       <recent name="c_TestCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort" />
       <recent name="$PROJECT_DIR$/src/h_Bottom_Up" />
       <recent name="$PROJECT_DIR$/src/g_Advanced_Optimization" />
       <recent name="$PROJECT_DIR$/src/f_Optimized_by_InsertionSort" />
       <recent name="$PROJECT_DIR$/src/e_Basic_Optimization" />
-      <recent name="$PROJECT_DIR$/src/e_Basic-Optimization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort (5)">
-    <configuration name="MergeSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d_TimeComplexity.MergeSort" />
-      <module name="09-MergeSort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="d_TimeComplexity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="MergeSort (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="e_Basic_Optimization.MergeSort" />
       <module name="09-MergeSort" />
@@ -141,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="i_Bootom_Up_Optimized_By_Insertion_Sort.MergeSort" />
+      <module name="09-MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="i_Bootom_Up_Optimized_By_Insertion_Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MergeSort (5)" />
         <item itemvalue="Application.MergeSort (3)" />
         <item itemvalue="Application.MergeSort (2)" />
         <item itemvalue="Application.MergeSort (4)" />
-        <item itemvalue="Application.MergeSort (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,41 +181,45 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1602774010747" />
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1604832740664">
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1606549621051">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1604832740664" />
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
     <state width="1490" height="143" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456181" />
-    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1604832740663">
+    <state width="1238" height="183" key="GridCell.Tab.0.center" timestamp="1606549621051">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1604832740663" />
+    <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
     <state width="1490" height="143" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1604832740662">
+    <state width="1238" height="183" key="GridCell.Tab.0.left" timestamp="1606549621050">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1604832740662" />
+    <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1606549621050" />
     <state width="1490" height="143" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1604832740663">
+    <state width="1238" height="183" key="GridCell.Tab.0.right" timestamp="1606549621051">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1604832740663" />
+    <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
     <state width="1490" height="143" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1490" height="167" key="GridCell.Tab.1.bottom" timestamp="1603847151010">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="116" key="GridCell.Tab.1.bottom" timestamp="1606546472635">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="116" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606546472635" />
     <state width="1490" height="167" key="GridCell.Tab.1.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151010" />
-    <state width="1490" height="167" key="GridCell.Tab.1.center" timestamp="1603847151009">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="116" key="GridCell.Tab.1.center" timestamp="1606546472633">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="116" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1606546472633" />
     <state width="1490" height="167" key="GridCell.Tab.1.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
-    <state width="1490" height="167" key="GridCell.Tab.1.left" timestamp="1603847151009">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="116" key="GridCell.Tab.1.left" timestamp="1606546472633">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="116" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1606546472633" />
     <state width="1490" height="167" key="GridCell.Tab.1.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
-    <state width="1490" height="167" key="GridCell.Tab.1.right" timestamp="1603847151009">
-      <screen x="0" y="23" width="1920" height="1011" />
+    <state width="1238" height="116" key="GridCell.Tab.1.right" timestamp="1606546472634">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="116" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1606546472634" />
     <state width="1490" height="167" key="GridCell.Tab.1.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
   </component>
 </project>
