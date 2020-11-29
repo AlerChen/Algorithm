@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/ArrayGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SelectionSort_Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i_Bootom_Up_Optimized_By_Insertion_Sort/SortingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/j_Solution_Reverse_Pairs_By_MergeSort/Solution_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/09-MergeSort/i_Bootom_Up_Optimized_By_Insertion_Sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/09-MergeSort/i_Bootom_Up_Optimized_By_Insertion_Sort/MergeSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/e_Basic_Optimization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.Solution_01">
     <configuration name="MergeSort (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="e_Basic_Optimization.MergeSort" />
       <module name="09-MergeSort" />
@@ -95,19 +90,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="f_Optimized_by_InsertionSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="g_Advanced_Optimization.MergeSort" />
-      <module name="09-MergeSort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="g_Advanced_Optimization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_Solution_Reverse_Pairs_By_MergeSort.Solution_01" />
+      <module name="09-MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j_Solution_Reverse_Pairs_By_MergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution_01" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MergeSort (5)" />
         <item itemvalue="Application.MergeSort (3)" />
         <item itemvalue="Application.MergeSort (2)" />
-        <item itemvalue="Application.MergeSort (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,45 +176,56 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1602774010747" />
-    <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1606549621051">
+    <state width="1238" height="61" key="GridCell.Tab.0.bottom" timestamp="1606617417356">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
+    <state width="1238" height="61" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606617417356" />
     <state width="1490" height="143" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456181" />
-    <state width="1238" height="183" key="GridCell.Tab.0.center" timestamp="1606549621051">
+    <state width="1238" height="61" key="GridCell.Tab.0.center" timestamp="1606617417352">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
+    <state width="1238" height="61" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1606617417352" />
     <state width="1490" height="143" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1238" height="183" key="GridCell.Tab.0.left" timestamp="1606549621050">
+    <state width="1238" height="61" key="GridCell.Tab.0.left" timestamp="1606617417350">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1606549621050" />
+    <state width="1238" height="61" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1606617417350" />
     <state width="1490" height="143" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1238" height="183" key="GridCell.Tab.0.right" timestamp="1606549621051">
+    <state width="1238" height="61" key="GridCell.Tab.0.right" timestamp="1606617417354">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1606549621051" />
+    <state width="1238" height="61" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1606617417354" />
     <state width="1490" height="143" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603847456180" />
-    <state width="1238" height="116" key="GridCell.Tab.1.bottom" timestamp="1606546472635">
+    <state width="1238" height="61" key="GridCell.Tab.1.bottom" timestamp="1606617417637">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="116" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606546472635" />
+    <state width="1238" height="61" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1606617417637" />
     <state width="1490" height="167" key="GridCell.Tab.1.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151010" />
-    <state width="1238" height="116" key="GridCell.Tab.1.center" timestamp="1606546472633">
+    <state width="1238" height="61" key="GridCell.Tab.1.center" timestamp="1606617417635">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="116" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1606546472633" />
+    <state width="1238" height="61" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1606617417635" />
     <state width="1490" height="167" key="GridCell.Tab.1.center/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
-    <state width="1238" height="116" key="GridCell.Tab.1.left" timestamp="1606546472633">
+    <state width="1238" height="61" key="GridCell.Tab.1.left" timestamp="1606617417633">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="116" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1606546472633" />
+    <state width="1238" height="61" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1606617417633" />
     <state width="1490" height="167" key="GridCell.Tab.1.left/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
-    <state width="1238" height="116" key="GridCell.Tab.1.right" timestamp="1606546472634">
+    <state width="1238" height="61" key="GridCell.Tab.1.right" timestamp="1606617417636">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="116" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1606546472634" />
+    <state width="1238" height="61" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1606617417636" />
     <state width="1490" height="167" key="GridCell.Tab.1.right/0.23.1920.1011@0.23.1920.1011" timestamp="1603847151009" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/j_Solution_Reverse_Pairs_By_MergeSort/Solution_01.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
