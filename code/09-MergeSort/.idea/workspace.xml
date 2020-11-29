@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="" />
+    <list default="true" id="6aa6569e-d593-4a00-baf6-bd261dc3ed73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../10-QuickSort/src/com/company/a_QuickSort/QuickSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
