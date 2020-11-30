@@ -1,5 +1,7 @@
 package com.company.a_QuickSort;
 
+import java.util.Arrays;
+
 /**
  * 快速排序: 原地排序
  * 原理:
@@ -54,20 +56,15 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        //Integer[] num = {5,4,3,2,1,8};
-        Integer[] num = {9,1,2,3,4,5};
-        sort(num);
-        for (int i = 0; i < num.length; i++) {
-            System.out.print(num[i]);
-            if (i != num.length - 1){
-                System.out.print(", ");
-            }else {
-                System.out.print(". ");
-            }
-        }
-        System.out.println();
+
+        int n = 100000;
+        Integer[] arr = ArrayGenerator.generateRandomArray(n,n);
+        Integer[] arr2 = Arrays.copyOf(arr,arr.length);
+        SortingHelper.sortTest("MergeSort",arr);
+        SortingHelper.sortTest("QuickSort",arr2);
         /**
-         1, 2, 3, 4, 5, 9. 
+         sortName: MergeSort, n = 100000, time = 0.236228 s
+         sortName: QuickSort, n = 100000, time = 0.062688 s
          */
     }
 
