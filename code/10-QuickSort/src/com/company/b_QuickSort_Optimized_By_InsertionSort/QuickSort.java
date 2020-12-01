@@ -57,7 +57,7 @@ public class QuickSort {
 
    private static <E extends Comparable<E>> int partition_op_insert(E[] arr, int l, int r){
        int j = l;
-       for (int i = l; i <= r; i++) {
+       for (int i = l + 1; i <= r; i++) {
            // < p
            if (arr[i].compareTo(arr[l]) < 0){
                j++;
