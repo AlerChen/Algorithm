@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-QuickSort/03-QuickSort.iml" filepath="$PROJECT_DIR$/03-QuickSort/03-QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-QuickSort-Optimized-by-Insertion-Sort/05-QuickSort-Optimized-by-Insertion-Sort.iml" filepath="$PROJECT_DIR$/05-QuickSort-Optimized-by-Insertion-Sort/05-QuickSort-Optimized-by-Insertion-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-QuickSort-Optimized-by-Random/07-QuickSort-Optimized-by-Random.iml" filepath="$PROJECT_DIR$/07-QuickSort-Optimized-by-Random/07-QuickSort-Optimized-by-Random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-QuickSort-Optimized/09-QuickSort-Optimized.iml" filepath="$PROJECT_DIR$/09-QuickSort-Optimized/09-QuickSort-Optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-Generate-Special-Array/10-Generate-Special-Array.iml" filepath="$PROJECT_DIR$/10-Generate-Special-Array/10-Generate-Special-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/11-QuickSort.iml" filepath="$PROJECT_DIR$/.idea/11-QuickSort.iml" />
+    </modules>
+  </component>
+</project>
