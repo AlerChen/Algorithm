@@ -95,34 +95,39 @@ public class QuickSort {
        sort_2ways(arr, p + 1, r);
     }
 
+    /**
+    * 二路快排
+     * 分别从数组前后两端开始遍历, 小的左边,大的右边, 当两边都有不符合规则的元素时停止,等待交换,交换,继续遍历
+     * 直到 左游标 大于等于 右游标为止
+    * */
     private static <E extends Comparable<E>> int partition_2ways(E[] arr, int l, int r){
-       // random
-        int ran = l + (new Random()).nextInt( r - l) + 1;
-        swap(arr,ran,l);
-        E val = arr[l];
-       int i = l + 1;
-       int j = r;
-       while (true){
-           while (i <= j && arr[i].compareTo(val) < 0) {
-               i ++;
-           }
-           while (j >= i && arr[j].compareTo(val) > 0){
-               j --;
-           }
-
-           if (i >= j) break;
-
-           swap(arr,i,j);
-
-           i ++;
-           j --;
-       }
-
-        swap(arr,l,j);
-
-       return j;
+        int random = l + (new Random()).nextInt(r - l) + 1;
+        swap(arr, random, l);
+        int i = l + 1;
+        int j = r;
+        while (true){
+            /** 从左开始遍历,遇见小于标定点元素则停下,否则 i++ (向后移动) */
+            while (i <= j && arr[i].compareTo(arr[l]) < 0){
+                i ++;
+            }
+            /** 从右开始遍历,遇见大于标定点元素则停下,否则 j-- (向前移动) */
+            while (i <= j && arr[j].compareTo(arr[l]) > 0){
+                j --;
+            }
+            /** 先判断是否已经遍历完毕 */
+            if (i >= j){
+                break;
+            }
+            /** 此时左端和右端都停有一个不符合各自规则的值 */
+            swap(arr, i, j);
+            /** 交换后,更新各自游标值 */
+            i ++;
+            j --;
+        }
+        /** 将最后的i值与l值交换, 回归正确的位置 p */
+        swap(arr, j, l);
+        return j;
     }
-
 
     public static void main(String[] args) {
 
@@ -172,18 +177,17 @@ public class QuickSort {
 
         /**
          Random Array
-         sortName: QuickSort, n = 10000, time = 0.011166 s
-         sortName: QuickSort_2ways, n = 10000, time = 0.011521 s
+         sortName: QuickSort, n = 10000, time = 0.015092 s
+         sortName: QuickSort_2ways, n = 10000, time = 0.015226 s
 
          Ordered Array
-         sortName: QuickSort, n = 10000, time = 0.007179 s
-         sortName: QuickSort_2ways, n = 10000, time = 0.004049 s
+         sortName: QuickSort, n = 10000, time = 0.007760 s
+         sortName: QuickSort_2ways, n = 10000, time = 0.007515 s
 
          Same Value Array
-         sortName: QuickSort, n = 10000, time = 0.195007 s
-         sortName: QuickSort_2ways, n = 10000, time = 0.001970 s
+         sortName: QuickSort, n = 10000, time = 0.208741 s
+         sortName: QuickSort_2ways, n = 10000, time = 0.001739 s
         */
 
     }
-
 }
