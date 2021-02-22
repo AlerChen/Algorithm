@@ -144,10 +144,14 @@ public class QuickSort {
         int random = l + (new Random()).nextInt(r - l) + 1;
         swap(arr,l,random);
         // arr[l + 1, lt] < v, arr[lt + 1, i - 1] == v, arr[gt, r] > v
+        /** l的位置, i的左边, 区间范围之外 */
         int lt = l;
+        /** l的右边, 排除l */
         int i = l + 1;
+        /** r的右边, 区间范围之外 */
         int gt = r + 1;
 
+        /** i < gt, i不断前移,直到遇到gt为止 */
         while (i < gt){
             if (arr[i].compareTo(arr[l]) < 0){
                 lt ++;
@@ -156,41 +160,26 @@ public class QuickSort {
             }else if(arr[i].compareTo(arr[l]) > 0){
                 gt --;
                 swap(arr, i, gt);
+                /** 因gt的前移, 交换了一个新的元素到i, 所以i不用++ */
             }else {
                 i ++;
             }
         }
+        /** 与lt交换, lt作为p点 */
         swap(arr, l, lt);
 
         /** recursion */
+        /** [l, lt - 1] < p(lt) */
         sort_3ways(arr, l, lt - 1);
+        /** [gt, r] > p(lt) */
         sort_3ways(arr, gt, r);
     }
 
 //    private static <E extends Comparable<E>> int[] partition_3ways(){
-//
-//
 //        //return [0,1];
 //    }
 
     public static void main(String[] args) {
-
-//        int n = 10000;
-//        System.out.println("RandomArray");
-//        Integer[] arr = ArrayGenerator.generateRandomArray(n,n);
-//        SortingHelper.sortTest("QuickSort",arr);
-//
-//        System.out.println("OrderArray");
-//        Integer[] arr2 = ArrayGenerator.generateOrderArray(n);
-//        SortingHelper.sortTest("QuickSort",arr2);
-//
-//        System.out.println("OrderArray");
-//        Integer[] arr3 = ArrayGenerator.generateRandomArray(n,1);
-//        SortingHelper.sortTest("QuickSort",arr3);
-//
-//        System.out.println("QuickSort_2ways");
-//        Integer[] arr4 = ArrayGenerator.generateRandomArray(n,1);
-//        SortingHelper.sortTest("QuickSort_2ways",arr4);
 
         int n = 10000;
 
