@@ -112,6 +112,21 @@ public class Solution_01 {
         return reverseLinkedListByRecursive(head);
     }
 
+    /**
+     * 递归反转列表
+     * 2022-03-15
+    * */
+    public ListNode reverseLinkedListByRecursive2(ListNode head){
+        // head == null 防止传入空头结点
+        // head.next == null 用于定位尾结点
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode pre = reverseLinkedListByRecursive2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return pre;
+    }
 
     public static void main(String[] args) {
         /** 翻转链表 */
@@ -187,9 +202,11 @@ public class Solution_01 {
         System.out.println("Origin Linked List");
         System.out.println(head);
 
-        System.out.println("Reverse Linked List Using Recursive");
+        System.out.println("Reverse Linked List Using Recursive aler");
         Solution_01 solution_01 = new Solution_01();
         ListNode reverseHead = solution_01.reverseLinkedListUsingRecursive(head);
+        //ListNode reverseHead = solution_01.reverseLinkedListByRecursive2(head);
+
         System.out.println(reverseHead);
 
         /**
