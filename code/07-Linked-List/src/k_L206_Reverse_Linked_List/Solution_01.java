@@ -54,6 +54,21 @@ public class Solution_01 {
         return pre;
     }
 
+    /**
+    * 2022-03-15
+    * */
+    public ListNode reverseLinkedList2(ListNode head) {
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+
     //    /**
     //     * Reverse Linked List Using Recursive
     //     * 解题失败
@@ -135,6 +150,8 @@ public class Solution_01 {
         System.out.println("Reverse Linked List");
         Solution_01 solution_01 = new Solution_01();
         ListNode reverseHead = solution_01.reverseLinkedList(head);
+        //ListNode reverseHead2 = solution_01.reverseLinkedList2(head);
+
         System.out.println(reverseHead);
 
         /**
