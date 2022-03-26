@@ -28,18 +28,18 @@ public class Solution_02 {
         int res = 0;
         for (int k = l; k <= r; k++){
             if (i > mid){
-                arr[k] = aux[j - l];
+                arr[k] = aux[j];
                 j++;
             }else if (j > r){
-                arr[k] = aux[i - l];
+                arr[k] = aux[i];
                 i++;
-            }else if (arr[i - l] <= arr[j - l]){
-                arr[k] = aux[i - l];
+            }else if (aux[i] <= aux[j]){
+                arr[k] = aux[i];
                 i++;
             }else {
                 // right, 较小的这边操作,此刻的左边,都是比右边的大,即逆序对数量.
                 res += mid - i + 1;
-                arr[k] = aux[j - l];
+                arr[k] = aux[j];
                 j++;
             }
         }
@@ -48,11 +48,11 @@ public class Solution_02 {
 
     public static void main(String[] args) {
 
-        int[] num = {3,1,0};
-        int res = reversePairs(num);
+        int[] arr = {7,5,6,1};
+        int res = reversePairs(arr);
         System.out.println("res = " + res);
         /**
-         res = 3
+         res = 5
          Time Complexity : O(nlogn)
          */
     }
