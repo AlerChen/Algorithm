@@ -81,6 +81,8 @@ public class SortingHelper {
             QuickSort.sort_2ways(arr);
         }else if (sortName.equals("QuickSort_3ways")){
             QuickSort.sort_3ways(arr);
+        }else if (sortName.equals("BinarySearchR")){
+            BinarySearch.binarySearchR(arr,target);
         }else if (sortName.equals("BinarySearch")){
             BinarySearch.binarySearch(arr,target);
         }
