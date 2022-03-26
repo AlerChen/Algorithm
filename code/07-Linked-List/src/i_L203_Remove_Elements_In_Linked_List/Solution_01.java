@@ -42,7 +42,7 @@ public class Solution_01 {
         System.out.println(head);
         /*
         1 -> 2 -> 3 -> 6 -> 5 -> 6 -> 7 -> 8 -> null
-        1 -> 2 -> 3 -> 5 -> 7 -> 8 -> null 
+        1 -> 2 -> 3 -> 5 -> 7 -> 8 -> null
         */
     }
 
