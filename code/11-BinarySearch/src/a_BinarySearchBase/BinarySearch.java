@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BinarySearch {
 
-    public static <E extends Comparable<E>> int binarySearch(int[] data, int target) {
+    public static <E extends Comparable<E>> int binarySearch(E[] data, E target) {
         int resIndex = binarySearch(data,0,data.length + 1,target);
         System.out.println(String.format("target: %d, resIndex: %d", target, resIndex));
         return resIndex;
@@ -17,13 +17,13 @@ public class BinarySearch {
      * target: 查找目标
      * return 目标下标
     * */
-    public static <E extends Comparable<E>> int binarySearch(int[] data, int l, int r, int target) {
+    public static <E extends Comparable<E>> int binarySearch(E[] data, int l, int r, E target) {
         if (l > r) return -1;
         int mid = l + (r - l) / 2;
-        if (data[mid] == target) {
+        if (data[mid].compareTo(target) == 0) {
             return mid;
         }
-        if (data[mid] < target) {
+        if (data[mid].compareTo(target) < 0) {
             return binarySearch(data,mid + 1, r, target);
         }
         return binarySearch(data,l, mid - 1, target);
@@ -33,10 +33,9 @@ public class BinarySearch {
 
         int n = 10000;
 
-        int[] arr = ArrayGenerator.generateOrderArrayTypeInt(n);
         System.out.println("BinarySearch");
-        //SortingHelper.sortTest("BinarySearch", arr);
-        binarySearch(arr,1234);
+        Integer[] arr = ArrayGenerator.generateOrderArray(n);
+        SortingHelper.sortTest("BinarySearch", arr, 123);
 
         System.out.println();
     }
