@@ -60,12 +60,53 @@ public class QuickSort {
         int n = 100000;
         Integer[] arr = ArrayGenerator.generateRandomArray(n,n);
         Integer[] arr2 = Arrays.copyOf(arr,arr.length);
+        Integer[] arr3 = Arrays.copyOf(arr,arr.length);
         SortingHelper.sortTest("MergeSort",arr);
         SortingHelper.sortTest("QuickSort",arr2);
+        SortingHelper.sortTest("QuickSort_test",arr3);
         /**
          sortName: MergeSort, n = 100000, time = 0.236228 s
          sortName: QuickSort, n = 100000, time = 0.062688 s
          */
+        /**
+         sortName: MergeSort, n = 100000, time = 0.187309 s
+         sortName: QuickSort, n = 100000, time = 0.085808 s
+         sortName: QuickSort_test, n = 100000, time = 0.070461 s
+         */
     }
 
+    /**
+     * 快速排序_基础版
+     * 2022-0327
+    * */
+    public static <E extends Comparable<E>> void sort_test(E[] arr){
+        sort_test(arr,0,arr.length - 1);
+    }
+
+    private static <E extends Comparable<E>> void sort_test(E[] arr, int l, int r){
+        if (l >= r) return;
+        int p = partition_test(arr,l,r);
+        sort_test(arr,l,p - 1);
+        sort_test(arr,p + 1,r);
+    }
+
+    private static <E extends Comparable<E>> int partition_test(E[] arr,int l, int r) {
+        int j = l; // 左区间尾
+        /** [l + 1, j]  [j + 1, r] */
+        /** i = l + 1, 第一个元素不需要和自己进行比较 */
+        for (int i = l + 1; i <= r; i++) {
+            if (arr[i].compareTo(arr[l]) < 0) {
+                j++;
+                swap(arr,i,j);
+            }
+        }
+        swap(arr,l,j);
+        return j;
+    }
+
+    private static <E extends Comparable<E>> void swap_test(E[] arr, int a, int b) {
+        E temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
 }
