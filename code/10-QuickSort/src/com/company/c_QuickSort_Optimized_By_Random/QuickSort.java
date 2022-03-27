@@ -93,8 +93,11 @@ public class QuickSort {
         System.out.println("OrderArray");
         Integer[] arr3 = ArrayGenerator.generateOrderArray(n);
         Integer[] arr4 = Arrays.copyOf(arr3,arr3.length);
+        Integer[] arr5 = Arrays.copyOf(arr3,arr3.length);
         SortingHelper.sortTest("QuickSort",arr);
-        SortingHelper.sortTest("MergeSort",arr);
+        SortingHelper.sortTest("MergeSort",arr4);
+        SortingHelper.sortTest("QuickSort_test_order",arr5);
+
 
         /**
          RandomArray
@@ -104,6 +107,51 @@ public class QuickSort {
          sortName: QuickSort, n = 50000, time = 0.015554 s
          sortName: MergeSort, n = 50000, time = 0.013264 s
          */
+        /**
+         RandomArray
+         sortName: QuickSort, n = 50000, time = 0.054116 s
+         sortName: MergeSort, n = 50000, time = 0.082852 s
+         OrderArray
+         sortName: QuickSort, n = 50000, time = 0.028305 s
+         sortName: MergeSort, n = 50000, time = 0.010562 s
+         sortName: QuickSort_test_order, n = 50000, time = 0.012368 s
+        */
+    }
+
+    /**
+     * 快速排序_随机数优化
+     * 2022-0327
+     * */
+    public static <E extends Comparable<E>> void sort_test_order(E[] arr){
+       sort_test(arr,0,arr.length - 1);
+    }
+
+    private static <E extends Comparable<E>> void sort_test(E[] arr, int l, int r){
+       if (l >= r) return;
+       int p = partition(arr,l,r);
+       sort_test(arr,l,p - 1);
+       sort_test(arr,p + 1,r);
+    }
+
+    private static <E extends Comparable<E>> int partition_test(E[] arr, int l, int r){
+        /** random l */
+        int ran = l + new Random().nextInt(r - l + 1);
+        swap(arr,ran,l);
+
+        int j = l;
+        for (int i = l + 1; i <= r; i++) {
+            if (arr[i].compareTo(arr[l]) < 0) {
+                j++;
+                swap(arr,j,i);
+            }
+        }
+        swap(arr,l,j);
+        return j;
+    }
+    private static <E extends Comparable<E>> void swap(E[] arr, int a, int b){
+       E temp = arr[a];
+       arr[a] = arr[b];
+       arr[b] = temp;
     }
 
 }

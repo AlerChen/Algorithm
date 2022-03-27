@@ -38,6 +38,8 @@ public class SortingHelper {
             QuickSort.sort(arr);
         }else if (sortName.equals("QuickSort_op_insert")){
             QuickSort.sort_op_insert(arr);
+        }else if (sortName.equals("QuickSort_test_order")){
+            QuickSort.sort_test_order(arr);
         }
 
         long endTime = System.nanoTime();
