@@ -231,5 +231,41 @@ public class QuickSort {
          sortName: QuickSort_3ways, n = 10000, time = 0.000063 s
         */
 
+        int[] selectColorArr = {0,2,1,2,1,0,0,2,1,1,2,1,0,2,1};
+        selectColor(selectColorArr);
+        System.out.println("selectColor start");
+        // print
+        for (int i = 0; i < selectColorArr.length; i++) {
+            if (i != 0) {
+                System.out.print(",");
+            }
+            System.out.print(selectColorArr[i]);
+        }
+        System.out.println("");
+        System.out.println("selectColor end");
+    }
+
+    public static void selectColor(int[] arr){
+        int lt = -1;
+        int gt = arr.length;
+        int i = 0;
+        while (i < gt) {
+            if (arr[i] < 1) {
+                lt ++;
+                swapSelectColor(arr, i, lt);
+                i ++;
+            }else if (arr[i] > 1){
+                gt --;
+                swapSelectColor(arr, i, gt);
+            }else  {
+                i ++;
+            }
+        }
+    }
+
+    private static void swapSelectColor(int[] arr, int l, int r){
+        int temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
     }
 }
