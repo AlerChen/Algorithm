@@ -181,38 +181,38 @@ public class QuickSort {
 
     public static void main(String[] args) {
 
-        int n = 10000;
-
-        Integer[] arr = ArrayGenerator.generateRandomArray(n, n);
-        Integer[] arr2 = Arrays.copyOf(arr, arr.length);
-        Integer[] arr3 = Arrays.copyOf(arr, arr.length);
-
-        System.out.println("Random Array");
-        SortingHelper.sortTest("QuickSort", arr);
-        SortingHelper.sortTest("QuickSort_2ways", arr2);
-        SortingHelper.sortTest("QuickSort_3ways", arr3);
-
-        System.out.println();
-
-        arr = ArrayGenerator.generateOrderArray(n);
-        arr2 = Arrays.copyOf(arr, arr.length);
-        arr3 = Arrays.copyOf(arr, arr.length);
-
-        System.out.println("Ordered Array");
-        SortingHelper.sortTest("QuickSort", arr);
-        SortingHelper.sortTest("QuickSort_2ways", arr2);
-        SortingHelper.sortTest("QuickSort_3ways", arr3);
-        System.out.println();
-
-        arr = ArrayGenerator.generateRandomArray(n, 1);
-        arr2 = Arrays.copyOf(arr, arr.length);
-        arr3 = Arrays.copyOf(arr, arr.length);
-
-        System.out.println("Same Value Array");
-        SortingHelper.sortTest("QuickSort", arr);
-        SortingHelper.sortTest("QuickSort_2ways", arr2);
-        SortingHelper.sortTest("QuickSort_3ways", arr3);
-        System.out.println();
+//        int n = 10000;
+//
+//        Integer[] arr = ArrayGenerator.generateRandomArray(n, n);
+//        Integer[] arr2 = Arrays.copyOf(arr, arr.length);
+//        Integer[] arr3 = Arrays.copyOf(arr, arr.length);
+//
+//        System.out.println("Random Array");
+//        SortingHelper.sortTest("QuickSort", arr);
+//        SortingHelper.sortTest("QuickSort_2ways", arr2);
+//        SortingHelper.sortTest("QuickSort_3ways", arr3);
+//
+//        System.out.println();
+//
+//        arr = ArrayGenerator.generateOrderArray(n);
+//        arr2 = Arrays.copyOf(arr, arr.length);
+//        arr3 = Arrays.copyOf(arr, arr.length);
+//
+//        System.out.println("Ordered Array");
+//        SortingHelper.sortTest("QuickSort", arr);
+//        SortingHelper.sortTest("QuickSort_2ways", arr2);
+//        SortingHelper.sortTest("QuickSort_3ways", arr3);
+//        System.out.println();
+//
+//        arr = ArrayGenerator.generateRandomArray(n, 1);
+//        arr2 = Arrays.copyOf(arr, arr.length);
+//        arr3 = Arrays.copyOf(arr, arr.length);
+//
+//        System.out.println("Same Value Array");
+//        SortingHelper.sortTest("QuickSort", arr);
+//        SortingHelper.sortTest("QuickSort_2ways", arr2);
+//        SortingHelper.sortTest("QuickSort_3ways", arr3);
+//        System.out.println();
 
         /**
          Random Array
@@ -231,6 +231,19 @@ public class QuickSort {
          sortName: QuickSort_3ways, n = 10000, time = 0.000063 s
         */
 
+        /** leetCode Test */
+        leetCodeTest();
+    }
+
+    public static void leetCodeTest() {
+        // 颜色分类
+        //selectColor();
+        // 最小的k个数
+        getLeastNumbers();
+    }
+
+    /** 颜色分类 */
+    private static void selectColor(){
         int[] selectColorArr = {0,2,1,2,1,0,0,2,1,1,2,1,0,2,1};
         selectColor(selectColorArr);
         System.out.println("selectColor start");
@@ -245,27 +258,92 @@ public class QuickSort {
         System.out.println("selectColor end");
     }
 
-    public static void selectColor(int[] arr){
+    private static void selectColor(int[] arr){
         int lt = -1;
         int gt = arr.length;
         int i = 0;
         while (i < gt) {
             if (arr[i] < 1) {
                 lt ++;
-                swapSelectColor(arr, i, lt);
+                swap(arr, i, lt);
                 i ++;
             }else if (arr[i] > 1){
                 gt --;
-                swapSelectColor(arr, i, gt);
+                swap(arr, i, gt);
             }else  {
                 i ++;
             }
         }
     }
 
-    private static void swapSelectColor(int[] arr, int l, int r){
+    private static void swap(int[] arr, int l, int r){
         int temp = arr[l];
         arr[l] = arr[r];
         arr[r] = temp;
     }
+
+    private static void getLeastNumbers(){
+        int[] arr = {2,4,3,1,0,5,6,7};
+        int[] res = getLeastNumbers(arr,3);
+        System.out.println("getLeastNumbers start");
+        // print
+        for (int i = 0; i < res.length; i++) {
+            if (i != 0) {
+                System.out.print(",");
+            }
+            System.out.print(res[i]);
+        }
+        System.out.println("");
+        System.out.println("getLeastNumbers end");
+        /**
+         getLeastNumbers start
+         0,1,2
+         getLeastNumbers end
+         */
+    }
+
+    /** 最小的k个数 */
+    private static int[] getLeastNumbers(int[] arr, int k) {
+        if (k == 0) return new int[0];
+        selectK(arr, 0, arr.length - 1, k - 1);
+        return Arrays.copyOf(arr,k);
+    }
+
+    private static int selectK(int[] arr, int l, int r, int k) {
+        int p = partitionLeastNum(arr, l, r);
+        if (k == p) {
+            /** 终止条件 */
+            /** P 已经到达 它原本的位置 */
+            return arr[p];
+        }else if (k < p) {
+            return selectK(arr, l, p - 1, k);
+        }else {
+            return selectK(arr,p + 1, r, k);
+        }
+    }
+
+    private static int partitionLeastNum(int[] arr, int l, int r){
+        int ran = l + new Random().nextInt( r - l) + 1;
+        swap(arr,l,ran);
+        int lt = l;
+        int gt = r + 1;
+        int i = l + 1;
+        while (i < gt) {
+            if (arr[i] < arr[l]){
+                lt ++;
+                swap(arr,i,lt);
+                i ++;
+            }else if (arr[i] > arr[l]) {
+                gt --;
+                swap(arr,i,gt);
+            }else {
+                i ++;
+            }
+        }
+        swap(arr,l,lt);
+        return lt;
+    }
+
+
+
 }
