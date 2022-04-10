@@ -239,7 +239,9 @@ public class QuickSort {
         // 颜色分类
         //selectColor();
         // 最小的k个数
-        getLeastNumbers();
+        //getLeastNumbers();
+        // 数组中的第k个最大的元素
+        findKthLargest();
     }
 
     /** 颜色分类 */
@@ -342,6 +344,21 @@ public class QuickSort {
         }
         swap(arr,l,lt);
         return lt;
+    }
+
+    public static void findKthLargest(){
+        int[] arr = {3,2,1,5,6,4};
+        int res = findKthLargest(arr,2);
+        System.out.println("findKthLargest res = " + res);
+        /**
+         findKthLargest res = 5
+         */
+    }
+
+    /** 数组中的第k个最大的元素 */
+    private static int findKthLargest(int[] nums, int k) {
+        int res = selectK(nums, 0, nums.length - 1, nums.length - k);
+        return res;
     }
 
 
