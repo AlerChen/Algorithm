@@ -9,26 +9,7 @@ public class BinarySearch_selectK {
 
         findKthLargest();
         findKthLargest_2();
-    }
-
-    /**数组中的第k个最大的元素_非递归写法 */
-    public static void findKthLargest(){
-        int[] arr = {3,2,1,5,6,4};
-        int res = findKthLargest(arr,2);
-        System.out.println("findKthLargest res = " + res);
-        /**
-         findKthLargest res = 5
-         */
-    }
-
-    /**数组中的第k个最大的元素_更换循环不变量写法 */
-    public static void findKthLargest_2(){
-        int[] arr = {3,2,1,5,6,4};
-        int res = findKthLargest_2(arr,2);
-        System.out.println("findKthLargest_2 res = " + res);
-        /**
-         findKthLargest_2 res = 5
-         */
+        findKthLargest_3();
     }
 
     private static int findKthLargest(int[] nums, int k) {
@@ -80,6 +61,26 @@ public class BinarySearch_selectK {
         arr[b] = temp;
     }
 
+    /**数组中的第k个最大的元素_非递归写法 */
+    public static void findKthLargest(){
+        int[] arr = {3,2,1,5,6,4};
+        int res = findKthLargest(arr,2);
+        System.out.println("findKthLargest res = " + res);
+        /**
+         findKthLargest res = 5
+         */
+    }
+
+    /**数组中的第k个最大的元素_更换循环不变量写法 */
+    public static void findKthLargest_2(){
+        int[] arr = {3,2,1,5,6,4};
+        int res = findKthLargest_2(arr,2);
+        System.out.println("findKthLargest_2 res = " + res);
+        /**
+         findKthLargest_2 res = 5
+         */
+    }
+
     /** 更换算法循环不变量 [l,r)*/
     private static int findKthLargest_2(int[] arr, int k){
         return selectK_2(arr,0, arr.length, arr.length - k);
@@ -120,5 +121,33 @@ public class BinarySearch_selectK {
         return lt;
     }
 
+    /**数组中的第k个最大的元素_非递归_更换循环不变量写法 */
+    public static void findKthLargest_3(){
+        int[] arr = {3,2,1,5,6,4};
+        int res = findKthLargest_3(arr,2);
+        System.out.println("findKthLargest_3 res = " + res);
+        /**
+         findKthLargest_3 res = 5
+         */
+    }
+
+    private static int findKthLargest_3(int[] arr, int k){
+        return selectK_3(arr,0, arr.length, arr.length - k);
+    }
+
+    private static int selectK_3(int[] arr, int l, int r, int k){
+        while (l <= r) {
+            int p = partition(arr,l,r - 1);
+            if (p == k) {
+                return arr[p];
+            }
+            if (k < p) {
+                r = p;
+            }else {
+                l = p + 1;
+            }
+        }
+        return -1;
+    }
 
 }
