@@ -87,7 +87,7 @@ public class BinarySearch_selectK {
 
     /** 更换算法循环不变量 */
     private static int selectK_2(int[] arr, int l, int r, int k){
-        int p = partition_2(arr, l, r);
+        int p = partition_2(arr, l, r - 1);
         if (p == k){
             return arr[p];
         }
@@ -99,11 +99,11 @@ public class BinarySearch_selectK {
     }
 
     private static int partition_2(int[] arr, int l, int r){
-        int ran = l + new Random().nextInt(r - l);
+        int ran = l + new Random().nextInt(r - l + 1);
         swap(arr, l, ran);
         int i = l + 1;
         int lt = l;
-        int gt = r;
+        int gt = r + 1;
         while(i < gt){
             if(arr[i] < arr[l]){
                 lt ++;
