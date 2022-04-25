@@ -18,6 +18,9 @@ public class BinarySearch_mergeSort {
             }
             System.out.print(arr[i]);
         }
+        /**
+         1,2,2,3,3,4,5,5,6,7,8,9
+         */
     }
 
     private static void sort(int[] arr, int l, int r){
@@ -44,6 +47,30 @@ public class BinarySearch_mergeSort {
                 i++;
             }else {
                 arr[k] = tempA[j - l];
+                j++;
+            }
+        }
+    }
+
+    /**
+     1,2,2,3,3,4,5,5,6,7,8,9
+     */
+    private static void merge2(int[] arr, int l, int mid, int r){
+        int[] tempA = Arrays.copyOf(arr,arr.length);
+        int i = l;
+        int j = mid + 1;
+        for (int k = l; k <= r; k++) {
+            if (j > r) {
+                arr[k] = tempA[i];
+                i++;
+            }else if(i > mid){
+                arr[k] = tempA[j];
+                j++;
+            }else if( tempA[i] < tempA[j] ){
+                arr[k] = tempA[i];
+                i++;
+            }else {
+                arr[k] = tempA[j];
                 j++;
             }
         }
