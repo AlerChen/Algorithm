@@ -7,6 +7,7 @@ public class BinarySearch_mergeSort {
 
     public static void main(String[] args) {
         mergeSort();
+        mergeSort_changeScope();
     }
 
     public static void mergeSort(){
@@ -31,6 +32,9 @@ public class BinarySearch_mergeSort {
         merge(arr, l, mid, r);
     }
 
+    /**
+     合并两个有序的区间 arr[l, mid] 和 arr[mid + 1, r]
+     */
     private static void merge(int[] arr, int l, int mid, int r){
         int[] tempA = Arrays.copyOfRange(arr, l, r + 1);
         int i = l;
@@ -71,6 +75,60 @@ public class BinarySearch_mergeSort {
                 i++;
             }else {
                 arr[k] = tempA[j];
+                j++;
+            }
+        }
+    }
+
+    /**
+     * 更改循环不变量练习
+     * arr[l,r) 进行排序
+     * */
+    public static void mergeSort_changeScope(){
+        System.out.println("\nmergeSort_changeScope");
+        int[] arr = {4,3,5,2,1,7,6,2,3,5,8,9};
+        sort_changeScope(arr, 0, arr.length);
+        for (int i = 0; i < arr.length; i++) {
+            if (i != 0){
+                System.out.print(",");
+            }
+            System.out.print(arr[i]);
+        }
+        /**
+         mergeSort_changeScope
+         1,2,2,3,3,4,5,5,6,7,8,9
+         */
+    }
+
+    private static void sort_changeScope(int[] arr, int l, int r){
+        int right = r - 1;
+        if (l >= right) return;
+        int mid = l + (right - l) / 2;
+        sort(arr, l, mid);
+        sort(arr, mid + 1, right);
+        merge(arr, l, mid, right);
+    }
+
+    /**
+     更改循环不变量练习
+     合并两个有序的区间 arr[l, mid) 和 arr[mid, r)
+     */
+    private static void merge3(int[] arr, int l, int mid, int r){
+        int[] tempA = Arrays.copyOfRange(arr, l, r + 1);
+        int i = l;
+        int j = mid + 1;
+        for (int k = l; k <= r; k++) {
+            if (j > r) {
+                arr[k] = tempA[i - l];
+                i++;
+            }else if(i > mid){
+                arr[k] = tempA[j - l];
+                j++;
+            }else if( tempA[i - l] < tempA[j - l] ){
+                arr[k] = tempA[i - l];
+                i++;
+            }else {
+                arr[k] = tempA[j - l];
                 j++;
             }
         }
