@@ -100,28 +100,33 @@ public class BinarySearch_mergeSort {
          */
     }
 
+    /**
+     更改循环不变量练习
+     arr[l, mid)
+     */
     private static void sort_changeScope(int[] arr, int l, int r){
-        int right = r - 1;
-        if (l >= right) return;
-        int mid = l + (right - l) / 2;
-        sort(arr, l, mid);
-        sort(arr, mid + 1, right);
-        merge(arr, l, mid, right);
+        if (r - l <= 1) return;/** 一个元素时不必操作 [l,r)*/
+        int mid = l + (r - l) / 2;
+        sort_changeScope(arr, l, mid);/** [l,mid) */
+        sort_changeScope(arr, mid, r); /** [mid,r) */
+        if(arr[mid-1] > arr[mid]){
+            merge_changeScope(arr, l, mid, r);
+        }
     }
 
     /**
      更改循环不变量练习
-     合并两个有序的区间 arr[l, mid) 和 arr[mid, r)
+     合并两个有序的区间 arr[l, mid] 和 arr[mid, r)
      */
-    private static void merge3(int[] arr, int l, int mid, int r){
-        int[] tempA = Arrays.copyOfRange(arr, l, r + 1);
+    private static void merge_changeScope(int[] arr, int l, int mid, int r){
+        int[] tempA = Arrays.copyOfRange(arr, l, r);
         int i = l;
-        int j = mid + 1;
-        for (int k = l; k <= r; k++) {
-            if (j > r) {
+        int j = mid;
+        for (int k = l; k < r; k++) {
+            if (j >= r) {
                 arr[k] = tempA[i - l];
                 i++;
-            }else if(i > mid){
+            }else if(i >= mid){
                 arr[k] = tempA[j - l];
                 j++;
             }else if( tempA[i - l] < tempA[j - l] ){
